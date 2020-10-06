@@ -1,0 +1,11 @@
+#Color Customization
+#highlight: "#54bfff"
+#white: "#FF0000"
+#black: "#000"
+
+#Image Customization
+header-image: "../img/header/header00.jpg"
+contact-image: "../img/site/contact.png"
+
+#Font Awesome icon for blog grid when an item is hovered over
+#blog-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x

@@ -1,0 +1,37 @@
+---
+layout: news_base
+
+nav: post
+---
+<header id="masthead" class="site-header" role="banner">
+    <div class="site-branding">
+        <div class="site-title">
+            <a href="{{ site.url }}" rel="home">{{ site.title }}</a>
+        </div>
+        <div class="site-description">
+            <span class="site-description-text">{{ site.description }}</span>
+        </div>
+    </div>
+    {% include news/post_nav.html %}
+</header>
+<div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+        <article id="post-{{ page.caption.code }}"
+                 class="post-{{ page.caption.code }} page type-page status-publish hentry entry-image--text">
+            <header class="entry-image--square entry-header">
+                <h1 class="entry-title">{{ page.title }}</h1>
+            </header>
+            <div class="entry-content">
+                <p><span>{{ page.subtitle }}</span></p>
+                <figure class="wp-block-image alignnone size-full wp-image-66">
+                    <img loading="lazy" width="980" height="612"
+                         src="{{ page.image }}"
+                         alt="{{ page.alt }}" class="wp-image-66"
+                         sizes="(max-width: 980px) 100vw, 980px">
+                    <figcaption>{{ page.figcaption }}</figcaption>
+                </figure>
+                <p>{{ content | markdownify }}</p>
+            </div>
+        </article>
+    </main>
+</div>

@@ -1,0 +1,15 @@
+---
+layout: base
+---
+{% include _partials/nav.html %}
+
+
+{% if page.background == "grey" or page.background == "gray" %}
+<script>
+    document.getElementById("page-top").className="bg-light";
+</script>
+{% endif %}
+
+<div class="container" id="pagecontainer">
+    {{ content }}
+</div>

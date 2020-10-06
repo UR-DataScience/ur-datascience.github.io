@@ -1,0 +1,30 @@
+<section class="experience-section section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="heading">
+                    <h3><b>{{ page.purple.title }}</b></h3>
+                    <h6 class="font-lite-black"><b>{{ page.purple.subtitle }}</b></h6>
+                </div>
+            </div><!-- col-sm-4 -->
+            <div class="col-sm-8">
+                {% for event in page.purple.events %}
+                <div class="experience margin-b-50">
+                    <h4><b>{{ event.title }}</b></h4>
+                    <h5 class="font-yellow"><b>{{ event.subtitle }}</b></h5>
+                    <h6 class="margin-t-10">{{ event.status }}</h6>
+                    <p class="font-semi-white margin-tb-30">{{ event.text | markdownify }}</p>
+                    <br>
+                    <ul class="list margin-b-30">
+                        {% for point in event.points %}
+                        <li>{{ point }}</li>
+                        {% endfor %}
+                    </ul>
+                </div><!-- experience -->
+                <hr>
+                {% endfor %}
+            </div><!-- col-sm-8 -->
+        </div><!-- row -->
+    </div><!-- container -->
+
+</section><!-- experience-section -->

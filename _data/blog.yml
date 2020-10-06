@@ -1,0 +1,6 @@
+title: "Blog"
+text: " "
+section: blog
+button: More posts... # optional
+buttonlink: "/blog" # "URL/page link" optional
+index: [2, 1, 3, 4, 5, 6]

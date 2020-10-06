@@ -1,0 +1,10 @@
+title: News
+text: " "
+section: news
+index: [1, ]
+tag_limit: 4
+is_active: true
+subtitle: " "
+button:
+  text: More News
+  link: http://urdatascience.ca/news/

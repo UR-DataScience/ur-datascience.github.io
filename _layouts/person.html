@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <!-- Meta -->
+    {% include person/meta.html %}
+
+    <!-- Title -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link href="{{ site.url }}/assets/cv/common-css/bootstrap.css" rel="stylesheet">
+    <link href="{{ site.url }}/assets/cv/common-css/ionicons.css" rel="stylesheet">
+    <link href="{{ site.url }}/assets/cv/common-css/fluidbox.min.css" rel="stylesheet">
+    <link href="{{ site.url }}/assets/cv/01-cv-portfolio/css/styles.css" rel="stylesheet">
+    <link href="{{ site.url }}/assets/cv/01-cv-portfolio/css/responsive.css" rel="stylesheet">
+
+</head>
+<body>
+
+{% include person/header.html %}
+
+{% include person/intro.html %}
+
+{% include person/about.html %}
+
+{% if page.purple %}
+{% include person/purple.html %}
+{% endif %}
+
+{% if page.timeline %}
+{% include person/timeline.html %}
+{% endif %}
+
+{% if content %}
+{% include person/content.html %}
+{% endif %}
+
+<br><br><br>
+
+{% if page.footer %}
+{% include person/footer.html %}
+{% endif %}
+
+<!-- FOOTER -->
+<footer>
+    <p class="copyright">
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+        All rights reserved | This template is made with <i class="ion-heart" aria-hidden="true"></i> by <a
+            href="https://colorlib.com" target="_blank">Colorlib</a>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    </p>
+</footer>
+
+<!-- SCIPTS -->
+<script src="{{ site.url }}/assets/cv/common-js/jquery-3.2.1.min.js"></script>
+<script src="{{ site.url }}/assets/cv/common-js/tether.min.js"></script>
+<script src="{{ site.url }}/assets/cv/common-js/bootstrap.js"></script>
+<script src="{{ site.url }}/assets/cv/common-js/isotope.pkgd.min.js"></script>
+<script src="{{ site.url }}/assets/cv/common-js/jquery.waypoints.min.js"></script>
+<script src="{{ site.url }}/assets/cv/common-js/progressbar.min.js"></script>
+<script src="{{ site.url }}/assets/cv/common-js/jquery.fluidbox.min.js"></script>
+<script src="{{ site.url }}/assets/cv/common-js/scripts.js"></script>
+</body>
+</html>

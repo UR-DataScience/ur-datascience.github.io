@@ -1,0 +1,17 @@
+title: Data Science Lab is supported by 
+text: 
+section: clients
+max-height: 100px
+horizontal-scrolling: "yes" #"yes/no"
+list:
+  - title: "Nvidia"
+    url: https://www.nvidia.com/
+    logo: assets/img/clients/nvidia.png
+  - title: "Kaggle"
+    url: https://www.kaggle.com
+    logo: assets/img/clients/Kaggle.png
+  - title: "Mitacs"
+    url: https://www.mitacs.ca/en
+    logo: assets/img/clients/Mitacs.png
+button: Be our client # optional
+buttonlink: "" # "URL/page link" optional

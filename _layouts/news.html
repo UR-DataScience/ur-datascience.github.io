@@ -1,0 +1,67 @@
+---
+layout: news_base
+---
+<div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+        <div id="posts" class="grid grid--4col-@huge  grid--3col-@desk  grid--2col-@lap">
+            <div class="grid__item">
+                <header id="masthead" class="site-header" role="banner">
+                    <div class="site-branding">
+                        <h1 class="site-title">
+                            <a href="{{ site.url }}" rel="home">{{ site.title }}</a>
+                        </h1>
+                        <div class="site-description">
+                            <span class="site-description-text">{{ site.description }}</span>
+                        </div>
+                    </div>
+                    {% include news/nav.html %}
+                </header>
+            </div>
+
+            {% for news in site.news %}
+            <div class="grid__item">
+
+                <article
+                        id="post-{{ forloop.index }}"
+                        class="post-{{ forloop.index }} post type-post status-publish format-standard has-post-thumbnail hentry entry-card js-masonry-item entry-card--square">
+
+                    <div class="entry-meta">
+                        {% for tag in news.categories %}
+                        <span class="cat-links">
+                        <a href="https://demos.pixelgrade.com/patch-lite/category/bikes/"
+                           rel=&quot;category tag&quot;>{{ tag }}</a>
+                    </span>
+                        {% endfor %}
+                        <span class="byline">{{ news.date|date:"%Y %m %d" }}</span>
+                    </div>
+
+                    <a href="{{ news.url }}"
+                       class="entry-image--square entry-image">
+
+                        <span class="hover" role="presentation">Read More</span>
+                        <div class="entry-image-wrapper">
+                            <img width="640" height="427"
+                                 src="{{ news.caption.thumbnail }}"
+                                 class="attachment-patch-masonry-image size-patch-masonry-image wp-post-image"
+                                 alt="" loading="lazy"
+                                 sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="204">
+                        </div>
+                    </a>
+
+                    <header class="entry-header entry-header--medium">
+                        <h1 class="entry-title">
+                            <a href="{{ news.url }}" rel="bookmark">
+                                {{ news.title }}
+                            </a>
+                        </h1>
+                    </header>
+
+                    <div class="entry-content entry-content--long">
+                        <p>{{ news.subtitle }}</p>
+                    </div>
+                </article>
+            </div>
+            {% endfor %}
+        </div>
+    </main>
+</div>

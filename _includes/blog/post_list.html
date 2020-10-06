@@ -1,0 +1,42 @@
+<main class="card-container side-gutter">
+    <header class="list-header">
+        <h1 class="list-header-title">
+            {{ site.data.blog.title }}
+        </h1>
+        <p class="list-header-subtext">
+            {{ site.data.blog.text }}
+        </p>
+    </header>
+
+    {% for post in site.blog reversed %}
+    <a ontouchstart="cardPressed.call(this)"
+       ontouchend="cardReleased.call(this)"
+       ontouchmove="cardReleased.call(this)"
+       href="{{ post.url }}"
+       class="card blog-card"
+       rel="bookmark">
+
+        {% if post.image %}
+        <div class="card-img-container">
+            <picture><img src="{{ post.image }}" class="card-img" alt="{{ post.alt }}"></picture>
+        </div>
+        {% endif %}
+
+        <div class="card-body">
+            <h2 class="card-title"> {{ post.title }} </h2>
+            <p class="card-text"> {{ post.subtitle }} </p>
+            <div class="card-subtext muted-text">
+                <p>
+                    Posted
+                    <time datetime="{{ post.date }}"> {{ post.date|date:"%Y %m %d" }}</time>
+                </p>
+                <p>
+                    {% for tag in post.categories %}
+                    #{{ tag }}
+                    {% endfor %}
+                </p>
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+</main>

@@ -1,0 +1,30 @@
+<section class="about-section section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="heading">
+                    <h3><b>About me</b></h3>
+                    <h6 class="font-lite-black"><b>PROFESSIONAL PATH</b></h6>
+                </div>
+            </div><!-- col-sm-4 -->
+            <div class="col-sm-8">
+                <p class="margin-b-50">
+                    {{ page.about | markdownify }}
+                </p>
+                <br><br><br>
+                <div class="row">
+                    {% for skill in page.skills %}
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="radial-prog-area margin-b-30">
+                            <div class="radial-progress" data-prog-percent=".{{ skill.level }}">
+                                <div></div>
+                                <h6 class="progress-title">{{ skill.title }}</h6>
+                            </div>
+                        </div><!-- radial-prog-area-->
+                    </div><!-- col-sm-6-->
+                    {% endfor %}
+                </div><!-- row -->
+            </div><!-- col-sm-8 -->
+        </div><!-- row -->
+    </div><!-- container -->
+</section><!-- about-section -->

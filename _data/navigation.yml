@@ -1,0 +1,18 @@
+nav:
+  - title: "Activities"
+    section: activities
+
+  - title: "Blog"
+    section: blog
+
+  - title: "Timeline"
+    section: timeline
+
+  - title: "Team Members"
+    section: team
+
+  - title: "Contact"
+    section: contact
+
+  - title: "News"
+    section: news

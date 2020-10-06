@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    {% include news/meta.html %}
+    {% include news/head.html %}
+</head>
+
+{% if page.nav == post %}
+<body class="page-template-default page page-id-63 group-blog has_sidebar">
+{% else %}
+<body class="home blog group-blog layout-grid">
+{% endif %}
+
+<div id="page" class="hfeed site">
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+    <div id="content" class="site-content">
+        <div class="container">
+            {{ content }}
+        </div>
+    </div>
+    {% include news/footer.html %}
+</div>
+
+
+<div class="mobile-header">
+    <div class="mobile-header-wrapper">
+        <button class="navigation__trigger  js-nav-trigger">
+            <i class="fa fa-bars"></i><span class="screen-reader-text">Menu</span>
+        </button>
+    </div>
+</div>
+
+{% include news/footer_script.html %}
+</body>

@@ -1,0 +1,14 @@
+<nav id="site-navigation" class="main-navigation" role="navigation">
+    <ul id="menu-primary-menu" class="nav nav--main">
+        <li id="menu-item-00"
+            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-00">
+            <a href="{{ site.url }}">HOME</a>
+        </li>
+        {% for nav in site.data.navigation.nav %}
+        <li id="menu-item-{{ forloop.index }}"
+            class="menu-item menu-item-type-taxonomy menu-item-object-post_format menu-item-{{ forloop.index }}">
+            <a href="{{ site.url }}/#{{ nav.section }}">{{ nav.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>

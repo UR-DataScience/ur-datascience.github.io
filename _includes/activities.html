@@ -1,0 +1,29 @@
+<!-- Activities -->
+  <section class="page-section" id="{{ site.data.activities.section | default: "activities" }}">
+    <div class="container">
+	
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.activities.title | default: "activities" }}</h2>
+          {% if site.data.activities.text %}
+		  <h3 class="section-subheading text-muted">{{ site.data.activities.text }}</h3>
+		  {% endif %}
+        </div>
+      </div>
+	  
+      <div class="row text-center">
+	  {% for activity in site.data.activities.list %}
+        <div class="col-md-4" {%- if activity.animation -%} data-aos="{{ activity.animation }}" {%- endif -%}>
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="{{ activity.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">{{ activity.title | markdownify }}</h4>
+          {% if activity.desc %}<div class="text-muted">{{ activity.desc | markdownify }}</div>{% endif %}
+        </div>
+	  {% endfor %}
+      </div>
+	  
+    </div>
+  </section>
+<!-- End activities -->

@@ -1,0 +1,79 @@
+section: team
+groups:
+  - main:
+    title: "Faculty Members and Collaborators"
+    text: " "
+    #subtext: If you are interested in joining the data science team as a collaboratior, advisor, student, or volunteer, please don't hesitate to send us an email.
+    button: Join us # optional
+    buttonlink: "mailto:alireza.manashty@uregina.ca" # "URL/page link"
+    members:
+      - name: "Dr. Alireza Manashty"
+        role: "Director, Data Science Laboratory <br> Assistant Professor, University of Regina"
+        link: http://urdatascience.ca/members/alireza/
+        image: assets/img/team/Alireza_Manashty.jpg
+        social:
+          - url: https://linkedin.com/in/manashty/
+            icon: fab fa-linkedin-in
+      - name: "Dr. Stephen Lee"
+        role: "Assistant Professor<br>University of Saskatchewan"
+        #link: http://urdatascience.ca/members/alireza/
+        image: assets/img/team/Stephen_Lee.jpg
+        social:
+          - url: https://www.linkedin.com/in/stephen-lee222/
+            icon: fab fa-linkedin-in
+  
+  - volunteers:
+    title: "Research Assistants"
+    #text: "Highly qualified students helping with ongoing research projects at DSL."
+    text: " "
+    members:
+      - name: "Mahtab Farokhfari"
+        role: "Research Assistant & Coordinator"
+        image: assets/img/team/Mahtab_Farokhfari.jpg
+        social:
+          - url: https://www.linkedin.com/in/mahtab-farokhfari-6190801ab/
+            icon: fab fa-linkedin-in
+      - name: "Ghazal (Baran) Erfani"
+        role: "Research Assistant"
+        link: http://urdatascience.ca/members/baran/
+        image: assets/img/team/Baran_Erfani.jpg
+        social:
+          - url: https://www.linkedin.com/in/baranerf/
+            icon: fab fa-linkedin-in
+  
+  - interns:
+    title: "Graduate Students"
+    #text: "Take a closer look into our amazing team."
+    text: " "
+    members:
+      - name: "Sandeep Tandra"
+        role: "M.Sc. Student in Computer Science"
+        image: assets/img/team/Sandeep_Tandra.jpg
+        link: http://urdatascience.ca/members/sandeep/
+        social:
+          - url: https://www.linkedin.com/in/sandeeptandra/
+            icon: fab fa-linkedin-in
+
+      - name: "Vineel Gannu"
+        role: "M.Sc. Student in Computer Science"
+        image: assets/img/team/Vineel_Gannu.jpg
+        link: http://urdatascience.ca/members/vineel
+        social:
+          - url: https://www.linkedin.com/in/vineelgannu
+            icon: fab fa-linkedin-in
+            
+      - name: "Vignesh Shankar"
+        role: "M.Sc. Student in Computer Science"
+        image: assets/img/team/Vignesh_Shankar.jpg
+        social:
+          - url: https://www.linkedin.com/in/vigneshshankar30/
+            icon: fab fa-linkedin-in
+            
+      - name: "Henrik Steenbock"
+        role: "M.Sc. Student in Computer Science"
+        image: assets/img/team/Man_Default.jpg
+        social:
+          - url: https://www.linkedin.com/in/henrik-steenbock-a3464a174/
+            icon: fab fa-linkedin-in
+            
+  

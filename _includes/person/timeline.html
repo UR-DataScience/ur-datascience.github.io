@@ -1,0 +1,25 @@
+<section class="education-section section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="heading">
+                    <h3><b>{{ page.timeline.title }}</b></h3>
+                    <h6 class="font-lite-black"><b>{{ page.timeline.subtitle }}</b></h6>
+                </div>
+            </div><!-- col-sm-4 -->
+            <div class="col-sm-8">
+                <div class="education-wrapper">
+                    {% for event in page.timeline.events %}
+                    <div class="education margin-b-50">
+                        <h4><b>{{ event.title }}</b></h4>
+                        <h5 class="font-yellow"><b>{{ event.subtitle }}</b></h5>
+                        <h6 class="font-lite-black margin-t-10">{{ event.status }}</h6>
+                        <p class="margin-tb-30">{{ event.text | markdownify }}</p>
+                    </div><!-- education -->
+                    {% endfor %}
+                </div><!-- education-wrapper -->
+            </div><!-- col-sm-8 -->
+        </div><!-- row -->
+    </div><!-- container -->
+
+</section><!-- about-section -->

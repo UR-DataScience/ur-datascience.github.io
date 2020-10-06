@@ -1,0 +1,16 @@
+title: "Activities"
+text: " "
+section: activities
+list:
+  - title: "Research"
+    desc: "**Research** is the core of the activities in this lab. Please visit the research tab to find out more about the recent findings. Prospective graduate and undergraduate students are encouraged to contact us to learn about open positions."
+    icon: fas fa-book-open #find more at https://fontawesome.com/icons
+#    animation: fade-up-right
+  - title: "Development"
+    desc: "We help in development of data solutions from **multi-platform** mobile and web apps to cloud solutions and dashboards. If you need any help or you have any question, feel free contact us!"
+    icon: fas fa-laptop
+#    animation: fade-down
+  - title: "Training"
+    desc: "We provide professional data science training for your employees or students. Depending on your needs, we can provide daily, hourly, weekly, or after-hours training. Python, data science, machine learning, deep learning, etc. Online **cloud-based** labs enable remote attendance as well."
+    icon: fas fa-chalkboard-teacher
+#    animation: fade-up-left

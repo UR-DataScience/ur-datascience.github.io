@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Meta-->
+    {% include _partials/meta.html %}
+
+    <!--Blog-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css"/>
+    <link href="{{ site.url }}/assets/blog/css/concated.min.css" rel="stylesheet">
+</head>
+
+<body class="list-body">
+
+{% include blog/nav.html %}
+
+{{ content }}
+
+{% include blog/button.html %}
+
+<script
+        defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js"
+        integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx"
+        crossorigin="anonymous">
+</script>
+<script
+        defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js"
+        integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);">
+</script>
+<script
+        src="{{ site.url }}/assets/blog/js/core.min.js">
+</script>
+
+</body>
+</html>

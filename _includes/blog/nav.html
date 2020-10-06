@@ -1,0 +1,18 @@
+<nav class="nav-bar side-padding">
+    <h1 class="nav-header">
+        <a href="{{ site.url }}" class="nav-text">Data Science Lab</a>
+    </h1>
+    <div class="hamburger-menu">
+        <button onclick="hamburgerMenuPressed.call(this)" aria-haspopup="true" aria-expanded="false"
+                aria-controls="menu" aria-label="Menu">
+            <span></span>
+            <span></span>
+        </button>
+        <ul id="menu" class="hamburger-menu-overlay">
+            <li><a href="{{ site.url }}" class="hamburger-menu-overlay-link">Home</a></li>
+            {% for nav in site.data.navigation.nav %}
+            <li><a href="{{ site.url }}/#{{ nav.section }}" class="hamburger-menu-overlay-link">{{ nav.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</nav>
