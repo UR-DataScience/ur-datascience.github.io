@@ -30,6 +30,7 @@ groups:
       - name: "Mahtab Farokhfari"
         role: "Research Assistant & Coordinator"
         image: assets/img/team/Mahtab_Farokhfari.jpg
+        link: http://urdatascience.ca/members/mahtab/
         social:
           - url: https://www.linkedin.com/in/mahtab-farokhfari-6190801ab/
             icon: fab fa-linkedin-in
