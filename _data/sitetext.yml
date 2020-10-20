@@ -1,7 +1,7 @@
 header:
   title: Data Science Laboratory
 #  titleanimation: flip-down # optional
-  text: "[\"research\",]"
+  text: "[\"research\", \"activities\"]"
   #text: "[\"research\", \"training\", \"development\", \"activities\", \"projects\", \"collaboration\"]"
 #  textanimation: flip-down # optional
   button: Tell Me More
