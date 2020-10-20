@@ -31,9 +31,6 @@ about: >-
  Full-stack data scientist: Provided complete solutions for problems, from business discovery, solution design, data acquisition (Sql/NoSql), modeling (R, Python, Java/C#, web), visualization, and deployment (local/cloud services)
  Instructor & professional trainer: 7 years of teaching main CS undergraduate courses. Data science trainer.
  
- *Research interests*:
-Machine Learning, Data Science, Temporal Data Representation and Forecasting, Predictive Analytics, Deep Learning, Federated Learning, Articial Intelligence, Healthcare Monitoring, Event Detection and Prediction, Cloud Computing, IoT, Computer Vision, Image Processing, Smart Environments, Robotics, HCI
- 
 
 #skills:
 #    - title: Machine Learning
@@ -100,3 +97,6 @@ timeline:
 # Publications
 [Google Scholar](https://scholar.google.com/citations?user=oTFzSi0AAAAJ&hl=en)
 
+# Research interests
+Machine Learning, Data Science, Temporal Data Representation and Forecasting, Predictive Analytics, Deep Learning, Federated Learning, Articial Intelligence, Healthcare Monitoring, Event Detection and Prediction, Cloud Computing, IoT, Computer Vision, Image Processing, Smart Environments, Robotics, HCI
+ 
