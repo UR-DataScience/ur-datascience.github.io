@@ -77,4 +77,9 @@ groups:
           - url: https://www.linkedin.com/in/henrik-steenbock-a3464a174/
             icon: fab fa-linkedin-in
             
-  
+      - name: "Saroj(Tsuyog) Basnet"
+        role: "M.Sc. Student in Computer Science"
+        image: assets/img/team/Tsuyog_Basnet.jpg
+        social:
+          - url: https://www.linkedin.com/in/tsuyog/
+            icon: fab fa-linkedin-in
