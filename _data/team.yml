@@ -21,6 +21,13 @@ groups:
         social:
           - url: https://www.linkedin.com/in/stephen-lee222/
             icon: fab fa-linkedin-in
+      - name: "Dr. Enayat Rajabi"
+        role: "Assistant Professor, Business Analytics<br>Cape Breton University"
+        #link: http://urdatascience.ca/members/alireza/
+        image: assets/img/team/Enayat_Rajabi.jpg
+        social:
+          - url: https://www.linkedin.com/in/enayat-rajabi-609aa142/
+            icon: fab fa-linkedin-in
   
   - volunteers:
     title: "Research Assistants"
