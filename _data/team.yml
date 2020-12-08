@@ -90,3 +90,19 @@ groups:
         social:
           - url: https://www.linkedin.com/in/tsuyog/
             icon: fab fa-linkedin-in
+
+  - volunteers:
+    title: "Future Students"
+    text: " "
+    members:
+      - name: "Yazdan Ranjbar"
+        role: "Future B.Sc. Computer Science student"
+        image: assets/img/team/Yazdan_Ranjbar.jpg
+        link: http://urdatascience.ca/members/yazdan
+        social:
+          - url: https://www.linkedin.com/in/yazdanra/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/yazdanra
+            icon: fab fa-github
+          - url: https://gitlab.com/yazdan_ra
+            icon: fab fa-gitlab
