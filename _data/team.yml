@@ -1,6 +1,6 @@
 section: team
 groups:
-  - main:
+  - Faculty Members and Collaborators:
     title: "Faculty Members and Collaborators"
     text: " "
     #subtext: If you are interested in joining the data science team as a collaboratior, advisor, student, or volunteer, please don't hesitate to send us an email.
@@ -29,7 +29,7 @@ groups:
           - url: https://www.linkedin.com/in/enayat-rajabi-609aa142/
             icon: fab fa-linkedin-in
   
-  - volunteers:
+  - Research Assistants:
     title: "Research Assistants"
     #text: "Highly qualified students helping with ongoing research projects at DSL."
     text: " "
@@ -49,7 +49,7 @@ groups:
           - url: https://www.linkedin.com/in/baranerf/
             icon: fab fa-linkedin-in
   
-  - interns:
+  - Graduate Students:
     title: "Graduate Students"
     #text: "Take a closer look into our amazing team."
     text: " "
@@ -89,6 +89,13 @@ groups:
         image: assets/img/team/Tsuyog_Basnet.jpg
         social:
           - url: https://www.linkedin.com/in/tsuyog/
+            icon: fab fa-linkedin-in
+
+      - name: "Sirvan Paraste"
+        role: "M.Sc. Student in Computer Science"
+        image: assets/img/team/Sirvan_Paraste.jpg
+        social:
+          - url: https://www.linkedin.com/in/sirvanparasteh/
             icon: fab fa-linkedin-in
 
   - volunteers:
