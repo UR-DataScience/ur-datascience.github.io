@@ -34,13 +34,6 @@ groups:
     #text: "Highly qualified students helping with ongoing research projects at DSL."
     text: " "
     members:
-      - name: "Mahtab Farokhfari"
-        role: "Research Assistant & Coordinator"
-        image: assets/img/team/Mahtab_Farokhfari.jpg
-        link: http://urdatascience.ca/members/mahtab/
-        social:
-          - url: https://www.linkedin.com/in/mahtab-farokhfari-6190801ab/
-            icon: fab fa-linkedin-in
       - name: "Ghazal (Baran) Erfani"
         role: "Research Assistant"
         link: http://urdatascience.ca/members/baran/
@@ -98,7 +91,7 @@ groups:
           - url: https://www.linkedin.com/in/sirvanparasteh/
             icon: fab fa-linkedin-in
 
-  - volunteers:
+  - Future Students:
     title: "Future Students"
     text: " "
     members:
@@ -113,3 +106,15 @@ groups:
             icon: fab fa-github
           - url: https://gitlab.com/yazdan_ra
             icon: fab fa-gitlab
+
+  - Alumni Students:
+      title: "Alumni Students"
+      text: " "
+      members:
+        - name: "Mahtab Farokhfari"
+          role: "Research Assistant & Coordinator"
+          image: assets/img/team/Mahtab_Farokhfari.jpg
+          link: http://urdatascience.ca/members/mahtab/
+          social:
+            - url: https://www.linkedin.com/in/mahtab-farokhfari-6190801ab/
+              icon: fab fa-linkedin-in
