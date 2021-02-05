@@ -95,6 +95,13 @@ groups:
           - url: https://www.linkedin.com/in/jay-joshi-6b19b31b2/
             icon: fab fa-linkedin-in
 
+      - name: "Elnaz Yousefi"
+        role: "M.Sc. Student in Computer Science"
+        image: assets/img/team/Elnaz_Yousefi.jpg
+        social:
+          - url: https://www.linkedin.com/in/elnaz-yousefi/
+            icon: fab fa-linkedin-in
+
   - Future Students:
     title: "Future Students"
     text: " "
