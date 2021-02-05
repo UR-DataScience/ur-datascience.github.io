@@ -3,9 +3,8 @@ groups:
   - Faculty Members and Collaborators:
     title: "Faculty Members and Collaborators"
     text: " "
-    #subtext: If you are interested in joining the data science team as a collaboratior, advisor, student, or volunteer, please don't hesitate to send us an email.
-    button: Join us # optional
-    buttonlink: "mailto:alireza.manashty@uregina.ca" # "URL/page link"
+    button: Join us
+    buttonlink: "mailto:alireza.manashty@uregina.ca"
     members:
       - name: "Dr. Alireza Manashty"
         role: "Director, Data Science Laboratory <br> Assistant Professor, University of Regina"
@@ -31,7 +30,6 @@ groups:
   
   - Research Assistants:
     title: "Research Assistants"
-    #text: "Highly qualified students helping with ongoing research projects at DSL."
     text: " "
     members:
       - name: "Ghazal (Baran) Erfani"
@@ -44,7 +42,6 @@ groups:
   
   - Graduate Students:
     title: "Graduate Students"
-    #text: "Take a closer look into our amazing team."
     text: " "
     members:
       - name: "Sandeep Tandra"
@@ -91,6 +88,13 @@ groups:
           - url: https://www.linkedin.com/in/sirvanparasteh/
             icon: fab fa-linkedin-in
 
+      - name: "Jay Joshi"
+        role: "M.Sc. Student in Computer Science"
+        image: assets/img/team/Jay_Joshi.jpg
+        social:
+          - url: https://www.linkedin.com/in/jay-joshi-6b19b31b2/
+            icon: fab fa-linkedin-in
+
   - Future Students:
     title: "Future Students"
     text: " "
@@ -108,13 +112,13 @@ groups:
             icon: fab fa-gitlab
 
   - Alumni Students:
-      title: "Alumni Students"
-      text: " "
-      members:
-        - name: "Mahtab Farokhfari"
-          role: "Research Assistant & Coordinator"
-          image: assets/img/team/Mahtab_Farokhfari.jpg
-          link: http://urdatascience.ca/members/mahtab/
-          social:
-            - url: https://www.linkedin.com/in/mahtab-farokhfari-6190801ab/
-              icon: fab fa-linkedin-in
+    title: "Alumni Students"
+    text: " "
+    members:
+      - name: "Mahtab Farokhfari"
+        role: "Research Assistant & Coordinator"
+        image: assets/img/team/Mahtab_Farokhfari.jpg
+        link: http://urdatascience.ca/members/mahtab/
+        social:
+          - url: https://www.linkedin.com/in/mahtab-farokhfari-6190801ab/
+            icon: fab fa-linkedin-in
