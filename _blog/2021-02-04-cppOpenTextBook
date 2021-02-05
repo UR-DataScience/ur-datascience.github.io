@@ -13,7 +13,8 @@ caption: #what displays in the blog grid:
     code: 2
     title: C++ Open Textbook
     subtitle: 
-    thumbnail: 
+    thumbnail: http://urdatascience.ca/assets/blog/img/cppCover.png
+
 ---
 I am glad to announce that our university is going to have its own CS110 textbook which is open source and free for everybody. The textbook covers everything that you need to know for CS110 and also a little bit more.
 You could access the textbook using the following link: <http://urdatascience.ca/electric-book/book/text/chapter_02.html>
