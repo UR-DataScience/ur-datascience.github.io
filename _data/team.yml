@@ -1,11 +1,10 @@
 section: team
 groups:
-  - main:
+  - Faculty Members and Collaborators:
     title: "Faculty Members and Collaborators"
     text: " "
-    #subtext: If you are interested in joining the data science team as a collaboratior, advisor, student, or volunteer, please don't hesitate to send us an email.
-    button: Join us # optional
-    buttonlink: "mailto:alireza.manashty@uregina.ca" # "URL/page link"
+    button: Join us
+    buttonlink: "mailto:alireza.manashty@uregina.ca"
     members:
       - name: "Dr. Alireza Manashty"
         role: "Director, Data Science Laboratory <br> Assistant Professor, University of Regina"
@@ -29,18 +28,10 @@ groups:
           - url: https://www.linkedin.com/in/enayat-rajabi-609aa142/
             icon: fab fa-linkedin-in
   
-  - volunteers:
+  - Research Assistants:
     title: "Research Assistants"
-    #text: "Highly qualified students helping with ongoing research projects at DSL."
     text: " "
     members:
-      - name: "Mahtab Farokhfari"
-        role: "Research Assistant & Coordinator"
-        image: assets/img/team/Mahtab_Farokhfari.jpg
-        link: http://urdatascience.ca/members/mahtab/
-        social:
-          - url: https://www.linkedin.com/in/mahtab-farokhfari-6190801ab/
-            icon: fab fa-linkedin-in
       - name: "Ghazal (Baran) Erfani"
         role: "Research Assistant"
         link: http://urdatascience.ca/members/baran/
@@ -49,9 +40,8 @@ groups:
           - url: https://www.linkedin.com/in/baranerf/
             icon: fab fa-linkedin-in
   
-  - interns:
+  - Graduate Students:
     title: "Graduate Students"
-    #text: "Take a closer look into our amazing team."
     text: " "
     members:
       - name: "Sandeep Tandra"
@@ -60,14 +50,6 @@ groups:
         link: http://urdatascience.ca/members/sandeep/
         social:
           - url: https://www.linkedin.com/in/sandeeptandra/
-            icon: fab fa-linkedin-in
-
-      - name: "Vineel Gannu"
-        role: "M.Sc. Student in Computer Science"
-        image: assets/img/team/Vineel_Gannu.jpg
-        link: http://urdatascience.ca/members/vineel
-        social:
-          - url: https://www.linkedin.com/in/vineelgannu
             icon: fab fa-linkedin-in
             
       - name: "Vignesh Shankar"
@@ -91,7 +73,28 @@ groups:
           - url: https://www.linkedin.com/in/tsuyog/
             icon: fab fa-linkedin-in
 
-  - volunteers:
+      - name: "Sirvan Paraste"
+        role: "M.Sc. Student in Computer Science"
+        image: assets/img/team/Sirvan_Paraste.jpg
+        social:
+          - url: https://www.linkedin.com/in/sirvanparasteh/
+            icon: fab fa-linkedin-in
+
+      - name: "Jay Joshi"
+        role: "M.Sc. Student in Computer Science"
+        image: assets/img/team/Jay_Joshi.jpg
+        social:
+          - url: https://www.linkedin.com/in/jay-joshi-6b19b31b2/
+            icon: fab fa-linkedin-in
+
+      - name: "Elnaz Yousefi"
+        role: "M.Sc. Student in Computer Science"
+        image: assets/img/team/Elnaz_Yousefi.jpg
+        social:
+          - url: https://www.linkedin.com/in/elnaz-yousefi/
+            icon: fab fa-linkedin-in
+
+  - Future Students:
     title: "Future Students"
     text: " "
     members:
@@ -106,3 +109,23 @@ groups:
             icon: fab fa-github
           - url: https://gitlab.com/yazdan_ra
             icon: fab fa-gitlab
+
+  - Alumni Students:
+    title: "Alumni Students"
+    text: " "
+    members:
+      - name: "Mahtab Farokhfari"
+        role: "Research Assistant & Coordinator"
+        image: assets/img/team/Mahtab_Farokhfari.jpg
+        link: http://urdatascience.ca/members/mahtab/
+        social:
+          - url: https://www.linkedin.com/in/mahtab-farokhfari-6190801ab/
+            icon: fab fa-linkedin-in
+
+      - name: "Vineel Gannu"
+        role: "M.Sc. Student in Computer Science"
+        image: assets/img/team/Vineel_Gannu.jpg
+        link: http://urdatascience.ca/members/vineel
+        social:
+          - url: https://www.linkedin.com/in/vineelgannu
+            icon: fab fa-linkedin-in

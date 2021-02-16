@@ -12,7 +12,7 @@ alt: yazdan-ranjbar
 email: Yazdan_ra@icloud.com
 email_text: Contact me
 
-number: "(+98) 035 5070 766"
+number: "(+98) 935 5070 766"
 #number_text: Text only
 
 address: CW 308.25, University of Regina, Regina, SK, Canada
@@ -27,18 +27,20 @@ social:
       icon: ion-social-github
     - url: https://twitter.com/yazdan__ra/
       icon: ion-social-twitter
-      
+    - url: https://gitlab.com/yazdan_ra
+      icon: "fab fa-gitlab"
+
 about: >-
     Future B.Sc. Computer Science student with +5 years of Algorithm programming experience includes 
     Object-Oriented Programming(OOP), Algorithm Design and Optimization, Graph Theory, Number Theory, 
     Problem Solving, etc using C/C++, and Python and also +1 years of Web Development experience using 
     Django(Python web framework), DRF(RestFull API), ORM, AWS, Docker, etc.<br>
-    Software Engineer at **Index1**(1) and Voluntary Support at **Quera College**(2).<br>
+    Software Engineer at **Daraya**(1) and Voluntary Support at **Quera College**(2).<br>
     I keep going with self-confidence and try hard to improve my tech skills and soft skills, learn new things, and 
     stay up to date, make good moments with my colleagues to finally reach the best results in our services and products.<br>
     <br>
-    1- [Index1](https://index1.ir) (Finance Platform) is a Platform for the Iranian Markets Such as Stocks(Bourse) 
-    which is helping people to be in touch with professional Advisers, Monitoring their selected stocks; 
+    1- [Daraya](https://daraya.ir) (Finance Platform) is a Platform for the Several Markets Such as Stocks(Bourse)
+    which is helping people to be in touch with professional Advisers, Monitor their selected markets and stocks; 
     get the valuable data and a lot of other features!<br>
     2- [Quera College](https://quera.ir)  is the Iranian leader in Task-Oriented and 
     Interactive Online Education in Programming and Algorithmic Thinking.<br>
@@ -61,10 +63,10 @@ purple:
     subtitle: PREVIOUS JOBS
     events:
         - title: Software Engineer
-          subtitle: Index1 (Finance Platform)
+          subtitle: Daraya (Finance Platform)
           status: SEP 2020 - PRESENT
           text: >-
-            Design, implement, Develop, and set up the Index1 (Finance Platform) Back-end side. Mentoring the <br>
+            Design, implement, Develop, and set up the Daraya (Finance Platform) Back-end side. Mentoring the <br>
             In the related projects, We worked with lots of tools such as 
             [Django](https://www.djangoproject.com) and [Django REST Framework(DRF)](https://www.django-rest-framework.org), 
             [Amazon Web Service(AWS)](https://aws.amazon.com), 
@@ -96,7 +98,7 @@ timeline:
           subtitle: University of Regina
           status: 2021 - PRESENT
           text: >-
-            I have an admission for Winter 2021. Besides, I'm contributing in the Data Science lab projects under 
+            I have an admission for Summer 2021. Besides, I'm contributing in the Data Science lab projects under 
             the supervision of [PhD. Alireza Manashty](https://urdatascience.ca/members/alireza).
         - title: Mathematics and Physics Diploma
           subtitle: Allame Helli High School 
@@ -104,7 +106,7 @@ timeline:
           text: >-
             Member of [National Organization for Development of Exceptional Talents](https://en.wikipedia.org/wiki/National_Organization_for_Development_of_Exceptional_Talents) (NODET)
 
-            
+
 footer:
     - title: Successful Projects
       count: 78
