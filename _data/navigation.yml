@@ -5,18 +5,14 @@ nav:
   - title: "News"
     section: news
 
+  - title: "Team Members"
+    section: team
+
   - title: "Blog"
     section: blog
 
   - title: "Timeline"
     section: timeline
-  
-  - title: "Team Members"
-    section: team
 
   - title: "Contact"
     section: contact
-
-  
-  
-
