@@ -1,0 +1,18 @@
+section: alumni
+title: "Alumni Students"
+text: " "
+members:
+  - name: "Mahtab Farokhfari"
+    role: "Research Assistant & Coordinator"
+    image: assets/img/team/Mahtab_Farokhfari.jpg
+    link: http://urdatascience.ca/members/mahtab/
+    social:
+      - url: https://www.linkedin.com/in/mahtab-farokhfari-6190801ab/
+        icon: fab fa-linkedin-in
+  - name: "Vineel Gannu"
+    role: "M.Sc. Student in Computer Science"
+    image: assets/img/team/Vineel_Gannu.jpg
+    link: http://urdatascience.ca/members/vineel
+    social:
+      - url: https://www.linkedin.com/in/vineelgannu
+        icon: fab fa-linkedin-in
