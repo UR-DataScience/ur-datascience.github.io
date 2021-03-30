@@ -19,10 +19,10 @@
                 <img class="mx-auto rounded-circle"
                      src="{{ person.image }}"
                      alt="{{ person.name }}"
-                     style="height: 10rem;width: 10rem;"
+                     style="height: 7rem;width: 7rem;"
                 >
                 {% endif %}
-                <h4>{{ person.name }}</h4>
+                <h5>{{ person.name }}</h5>
                 <p class="text-muted">{{ person.role }}</p>
                 <ul class="list-inline social-buttons">
                     {% for network in person.social %}
