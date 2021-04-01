@@ -12,9 +12,21 @@ Powered by [Jekyll](http://Jekyllrb.com/)
 - [How can make a new blog post?](#make-blog-post)
 - [How can make a new member page?](#make-member-page)
 - [How can setup and run code on my computer?](#setup-and-run-on-your-own-computer)
+    - [Docker Compose](#docker-compose)
+    - [Locally](#locally)
 
 
 # Setup and Run on your own computer
+There are two method to run and start developing.
+
+## Docker Compose
+Make sure you already installed `docker` and `docker-compose` on your computer
+and then run the command line below:
+```shell script
+docker-compose up
+```
+
+## Locally
 
 - Firstly, Clone the repo on your computer; if you use CLI, run the command bellow!
 ```shell script
