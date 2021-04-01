@@ -1,0 +1,9 @@
+section: alumni
+title: "Alumni Students"
+text: " "
+members:
+  - name: "Mahtab Farokhfari"
+    image: assets/img/team/Mahtab_Farokhfari.jpg
+
+  - name: "Vineel Gannu"
+    image: assets/img/team/Vineel_Gannu.jpg

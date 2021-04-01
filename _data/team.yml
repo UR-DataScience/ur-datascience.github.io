@@ -15,19 +15,17 @@ groups:
             icon: fab fa-linkedin-in
       - name: "Dr. Stephen Lee"
         role: "Assistant Professor<br>University of Saskatchewan"
-        #link: http://urdatascience.ca/members/alireza/
         image: assets/img/team/Stephen_Lee.jpg
         social:
           - url: https://www.linkedin.com/in/stephen-lee222/
             icon: fab fa-linkedin-in
       - name: "Dr. Enayat Rajabi"
         role: "Assistant Professor, Business Analytics<br>Cape Breton University"
-        #link: http://urdatascience.ca/members/alireza/
         image: assets/img/team/Enayat_Rajabi.jpg
         social:
           - url: https://www.linkedin.com/in/enayat-rajabi-609aa142/
             icon: fab fa-linkedin-in
-  
+
   - Research Assistants:
     title: "Research Assistants"
     text: " "
@@ -39,7 +37,7 @@ groups:
         social:
           - url: https://www.linkedin.com/in/baranerf/
             icon: fab fa-linkedin-in
-  
+
   - Graduate Students:
     title: "Graduate Students"
     text: " "
@@ -51,42 +49,39 @@ groups:
         social:
           - url: https://www.linkedin.com/in/sandeeptandra/
             icon: fab fa-linkedin-in
-            
+
       - name: "Vignesh Shankar"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Vignesh_Shankar.jpg
         social:
           - url: https://www.linkedin.com/in/vigneshshankar30/
             icon: fab fa-linkedin-in
-            
+
       - name: "Henrik Steenbock"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Man_Default.jpg
         social:
           - url: https://www.linkedin.com/in/henrik-steenbock-a3464a174/
             icon: fab fa-linkedin-in
-            
+
       - name: "Saroj(Tsuyog) Basnet"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Tsuyog_Basnet.jpg
         social:
           - url: https://www.linkedin.com/in/tsuyog/
             icon: fab fa-linkedin-in
-
       - name: "Sirvan Paraste"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Sirvan_Paraste.jpg
         social:
           - url: https://www.linkedin.com/in/sirvanparasteh/
             icon: fab fa-linkedin-in
-
       - name: "Jay Joshi"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Jay_Joshi.jpg
         social:
           - url: https://www.linkedin.com/in/jay-joshi-6b19b31b2/
             icon: fab fa-linkedin-in
-
       - name: "Elnaz Yousefi"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Elnaz_Yousefi.jpg
@@ -109,23 +104,3 @@ groups:
             icon: fab fa-github
           - url: https://gitlab.com/yazdan_ra
             icon: fab fa-gitlab
-
-  - Alumni Students:
-    title: "Alumni Students"
-    text: " "
-    members:
-      - name: "Mahtab Farokhfari"
-        role: "Research Assistant & Coordinator"
-        image: assets/img/team/Mahtab_Farokhfari.jpg
-        link: http://urdatascience.ca/members/mahtab/
-        social:
-          - url: https://www.linkedin.com/in/mahtab-farokhfari-6190801ab/
-            icon: fab fa-linkedin-in
-
-      - name: "Vineel Gannu"
-        role: "M.Sc. Student in Computer Science"
-        image: assets/img/team/Vineel_Gannu.jpg
-        link: http://urdatascience.ca/members/vineel
-        social:
-          - url: https://www.linkedin.com/in/vineelgannu
-            icon: fab fa-linkedin-in

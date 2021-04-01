@@ -1,0 +1,27 @@
+<!-- Alumni -->
+<section class="bg-light page-section" id="{{ site.data.alumni.section | default: 'alumni' }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">{{ site.data.alumni.title }}</h2>
+                <h3 class="section-subheading text-muted">{{ site.data.alumni.text }}</h3>
+            </div>
+        </div>
+        <div class="row">
+            {% for person in site.data.alumni.members %}
+            <div class="col-sm-3">
+                <div class="team-member showhim">
+                    <div class="showme">
+                        <img class="rounded-circle"
+                             src="{{ person.image }}"
+                             alt="{{ person.name }}"
+                        >
+                    </div>
+                    <h4>{{ person.name }}</h4>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- End Alumni -->
