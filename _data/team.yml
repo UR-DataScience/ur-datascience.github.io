@@ -98,7 +98,7 @@ groups:
     text: " "
     members:
       - name: "Yazdan Ranjbar"
-        role: "B.Sc. Computer Science student"
+        role: "B.Sc. Computer Science"
         image: assets/img/team/Yazdan_Ranjbar.jpg
         link: http://urdatascience.ca/members/yazdan
         social:
