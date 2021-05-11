@@ -70,18 +70,21 @@ groups:
         social:
           - url: https://www.linkedin.com/in/tsuyog/
             icon: fab fa-linkedin-in
+
       - name: "Sirvan Paraste"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Sirvan_Paraste.jpg
         social:
           - url: https://www.linkedin.com/in/sirvanparasteh/
             icon: fab fa-linkedin-in
+
       - name: "Jay Joshi"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Jay_Joshi.jpg
         social:
           - url: https://www.linkedin.com/in/jay-joshi-6b19b31b2/
             icon: fab fa-linkedin-in
+
       - name: "Elnaz Yousefi"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Elnaz_Yousefi.jpg
@@ -89,12 +92,13 @@ groups:
           - url: https://www.linkedin.com/in/elnaz-yousefi/
             icon: fab fa-linkedin-in
 
-  - Future Students:
-    title: "Future Students"
+
+  - Students:
+    title: "Undergraduate Students"
     text: " "
     members:
       - name: "Yazdan Ranjbar"
-        role: "Future B.Sc. Computer Science student"
+        role: "B.Sc. Computer Science student"
         image: assets/img/team/Yazdan_Ranjbar.jpg
         link: http://urdatascience.ca/members/yazdan
         social:
