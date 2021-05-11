@@ -4,18 +4,18 @@ title: Yazdan Ranjbar
 permalink: /members/yazdan
 
 name: Yazdan Ranjbar
-role: <br> Data Science Enthusiastic <br> Future B.Sc. Computer Science student <br> Software Engineer
+role: <br> Data Science Enthusiastic <br> B.Sc. Computer Science student <br> Software Engineer
 
 image: "/assets/img/team/Yazdan_Ranjbar.jpg"
 alt: yazdan-ranjbar
 
 email: Yazdan_ra@icloud.com
-email_text: Contact me
+#email_text: Contact me
 
 number: "(+98) 935 5070 766"
 #number_text: Text only
 
-address: CW 308.25, University of Regina, Regina, SK, Canada
+address: University of Regina, Regina, SK, Canada
 #address_text: Work
 
 born: October 5, 2000
@@ -31,7 +31,7 @@ social:
       icon: "fab fa-gitlab"
 
 about: >-
-    Future B.Sc. Computer Science student with +5 years of Algorithm programming experience includes 
+    B.Sc. Computer Science student with +5 years of Algorithm programming experience includes 
     Object-Oriented Programming(OOP), Algorithm Design and Optimization, Graph Theory, Number Theory, 
     Problem Solving, etc using C/C++, and Python and also +1 years of Web Development experience using 
     Django(Python web framework), DRF(RestFull API), ORM, AWS, Docker, etc.<br>
@@ -64,7 +64,7 @@ purple:
     events:
         - title: Software Engineer
           subtitle: Daraya (Finance Platform)
-          status: SEP 2020 - PRESENT
+          status: SEP 2020 - MAY 2021
           text: >-
             Design, implement, Develop, and set up the Daraya (Finance Platform) Back-end side. Mentoring the <br>
             In the related projects, We worked with lots of tools such as 
@@ -98,7 +98,7 @@ timeline:
           subtitle: University of Regina
           status: 2021 - PRESENT
           text: >-
-            I have an admission for Summer 2021. Besides, I'm contributing in the Data Science lab projects under 
+            I'm contributing in the Data Science lab projects under 
             the supervision of [PhD. Alireza Manashty](https://urdatascience.ca/members/alireza).
         - title: Mathematics and Physics Diploma
           subtitle: Allame Helli High School 
