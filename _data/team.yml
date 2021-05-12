@@ -37,6 +37,19 @@ groups:
         social:
           - url: https://www.linkedin.com/in/baranerf/
             icon: fab fa-linkedin-in
+
+      - name: "Yazdan Ranjbar"
+        role: "B.Sc. Computer Science"
+        image: assets/img/team/Yazdan_Ranjbar.jpg
+        link: http://urdatascience.ca/members/yazdan
+        social:
+          - url: https://www.linkedin.com/in/yazdanra/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/yazdanra
+            icon: fab fa-github
+          - url: https://gitlab.com/yazdan_ra
+            icon: fab fa-gitlab
+
       - name: "Shiva Souri"
         role: "Research Assistant"
         link: http://urdatascience.ca/members/shiva
@@ -101,18 +114,34 @@ groups:
             icon: fab fa-linkedin-in
 
 
-  - Students:
-    title: "Undergraduate Students"
+  - Interns:
+    title: "Interns"
     text: " "
     members:
-      - name: "Yazdan Ranjbar"
-        role: "B.Sc. Computer Science"
-        image: assets/img/team/Yazdan_Ranjbar.jpg
-        link: http://urdatascience.ca/members/yazdan
+      - name: "Brandon Sasyniuk"
+        role: "Research Intern"
+        link: https://urdatascience.ca/members/brandon
+        image: /assets/img/team/Brandon_Sasyniuk.jpg
         social:
-          - url: https://www.linkedin.com/in/yazdanra/
+          - url: https://www.linkedin.com/in/dayne-blair-6453961a2/
             icon: fab fa-linkedin-in
-          - url: https://github.com/yazdanra
+          - url: https://github.com/dennidestroyer
             icon: fab fa-github
-          - url: https://gitlab.com/yazdan_ra
-            icon: fab fa-gitlab
+
+      - name: "Zakiyyah Noorally"
+        role: "Undergraduate Research Intern"
+        link: https://urdatascience.ca/members/zakiyyah
+        image: assets/img/team/Zakiyyah_Noorally.jpg
+        social:
+          - url: https://linkedin.com/in/zakiyyah-n-b50b7a139
+            icon: fab fa-linkedin-in
+
+      - name: "Dayne Blair"
+        role: "Undergraduate Research Assistant"
+        link: https://urdatascience.ca/members/dayne
+        image: assets/img/team/Dayne_Blair.jpg
+        social:
+          - url: https://www.linkedin.com/in/dayne-blair-6453961a2/
+            icon: fab fa-linkedin-in
+          - url: https://github.com/dennidestroyer
+            icon: fab fa-github
