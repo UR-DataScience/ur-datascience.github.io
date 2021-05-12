@@ -3,7 +3,11 @@ title: "Alumni Students"
 text: " "
 members:
   - name: "Mahtab Farokhfari"
+    role: "Research Assistant & Coordinator"
+    link: https://urdatascience.ca/members/mahtab
     image: assets/img/team/Mahtab_Farokhfari.jpg
 
   - name: "Vineel Gannu"
+    role: "M.Sc. Computer Science Student"
+    link: https://urdatascience.ca/members/vineel
     image: assets/img/team/Vineel_Gannu.jpg

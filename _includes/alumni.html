@@ -13,7 +13,11 @@
             <div class="team-member">
                 {% if person.link %}
                 <a href="{{ person.link }}">
-                    <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
+                    <img class="mx-auto rounded-circle"
+                         src="{{ person.image }}"
+                         alt="{{ person.name }}"
+                         style="height: 7rem;width: 7rem;"
+                    >
                 </a>
                 {% else %}
                 <img class="mx-auto rounded-circle"

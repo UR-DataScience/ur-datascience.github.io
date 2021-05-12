@@ -1,7 +1,7 @@
 ---
 layout: person
 title: Mahtab Farokhfari
-permalink: /members/mahtab/
+permalink: /members/mahtab
 
 name: Mahtab Farokhfari
 role: Research Assistant & Coordinator

@@ -1,7 +1,7 @@
 ---
 layout: person
 title: Vineel Gannu
-permalink: /members/vineel/
+permalink: /members/vineel
 
 name: Vineel Gannu
 role: Graduate Student (M.Sc.)
