@@ -37,6 +37,13 @@ groups:
         social:
           - url: https://www.linkedin.com/in/baranerf/
             icon: fab fa-linkedin-in
+      - name: "Shiva Souri"
+        role: "Research Assistant"
+        link: http://urdatascience.ca/members/shiva
+        image: assets/img/team/Shiva_Souri.jpg
+        social:
+          - url: https://www.linkedin.com/in/shiva-souri-b69a22208
+            icon: fab fa-linkedin-in
 
   - Graduate Students:
     title: "Graduate Students"
@@ -74,6 +81,7 @@ groups:
       - name: "Sirvan Paraste"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Sirvan_Paraste.jpg
+        link: http://urdatascience.ca/members/sirvan
         social:
           - url: https://www.linkedin.com/in/sirvanparasteh/
             icon: fab fa-linkedin-in
