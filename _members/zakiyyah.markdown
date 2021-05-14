@@ -18,7 +18,6 @@ number_text: Text only
 address: Data Science Laboratory, CL 122, University of Regina, SK, CANADA.
 address_text: Work
 
-born: 1999
 
 social:
     - url: www.linkedin.com/in/zakiyyah-n-b50b7a139

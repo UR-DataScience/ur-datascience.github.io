@@ -18,7 +18,6 @@ number: "(+98) 935 5070 766"
 address: University of Regina, Regina, SK, Canada
 #address_text: Work
 
-born: October 5, 2000
 
 social:
     - url: https://linkedin.com/yazdanra/

@@ -18,7 +18,6 @@ number_text: Text only
 address: Data Science Laboratory, CL 122, University of Regina, SK, CANADA.
 address_text: Work
 
-born: 1991-09-18
 
 social:
     - url: https://www.linkedin.com/in/mahtab-farokhfari-6190801ab

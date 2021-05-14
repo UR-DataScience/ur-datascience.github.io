@@ -18,7 +18,6 @@ number: "(+1) 639 590 5257"
 address: University of Regina, Regina, SK, Canada
 #address_text: Work
 
-born: 16June 1991
 
 social:
     - url: https://www.linkedin.com/in/shiva-souri-b69a22208

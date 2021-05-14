@@ -18,7 +18,6 @@ number_text: Text only
 address: 2 - 4114 Rae Street, Regina, SK, Canada
 address_text: Home
 
-born: 01-Nov-1996
 
 social:
     - url: https://www.linkedin.com/in/vineelgannu

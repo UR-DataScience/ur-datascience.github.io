@@ -18,7 +18,6 @@ number: "306-737-4184"
 address: University of Regina, Regina, SK, Canada
 #address_text: Work
 
-born: May 30, 1991
 
 social:
     - url: https://www.linkedin.com/in/dayne-blair-6453961a2/
