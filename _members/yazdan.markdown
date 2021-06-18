@@ -12,7 +12,7 @@ alt: yazdan-ranjbar
 email: Yazdan_ra@icloud.com
 #email_text: Contact me
 
-number: "(+98) 935 5070 766"
+number: "+1(639)382-2247"
 #number_text: Text only
 
 address: University of Regina, Regina, SK, Canada
@@ -62,7 +62,7 @@ purple:
     subtitle: PREVIOUS JOBS
     events:
         - title: Software Engineer
-          subtitle: Daraya (Finance Platform)
+          subtitle: Daraya
           status: SEP 2020 - MAY 2021
           text: >-
             Design, implement, Develop, and set up the Daraya (Finance Platform) Back-end side. Mentoring the <br>
@@ -113,6 +113,7 @@ footer:
       count: 47
     - title: Passed Courses
       count: 20
+
 ---
 
 ![Yazdan's github stats](https://github-readme-stats.vercel.app/api?username=yazdanra&count_private=true&show_icons=true)
@@ -131,3 +132,10 @@ footer:
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=querateam&repo=django-qsessions)](https://github.com/querateam/django-qsessions)
 
+---
+
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=yazdanra&repo=gharar)](https://github.com/YazdanRa/gharar)
+
+---
+
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=alireza8n&repo=django-backend)](https://github.com/alireza8n/django-backend)
