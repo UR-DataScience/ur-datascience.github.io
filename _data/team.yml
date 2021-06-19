@@ -145,3 +145,12 @@ groups:
             icon: fab fa-linkedin-in
           - url: https://github.com/dennidestroyer
             icon: fab fa-github
+
+      - name: "Muskan Lalit"
+        role: "Mitacs Globalink Intern"
+        link: https://urdatascience.ca/members/muskan
+        image: assets/img/team/Muskan_Lalit.jpg
+        social:
+          - url: https://www.linkedin.com/in/muskanlalit/
+            icon: fab fa-linkedin-in
+
