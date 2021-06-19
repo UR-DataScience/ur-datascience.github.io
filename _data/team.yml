@@ -39,7 +39,7 @@ groups:
             icon: fab fa-linkedin-in
 
       - name: "Yazdan Ranjbar"
-        role: "B.Sc. Computer Science"
+        role: "Research Assistant"
         image: assets/img/team/Yazdan_Ranjbar.jpg
         link: http://urdatascience.ca/members/yazdan
         social:
