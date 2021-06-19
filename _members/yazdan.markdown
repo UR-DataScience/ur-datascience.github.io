@@ -20,7 +20,7 @@ address: University of Regina, Regina, SK, Canada
 
 
 social:
-    - url: https://linkedin.com/yazdanra/
+    - url: https://linkedin.com/in/yazdanra/
       icon: ion-social-linkedin
     - url: https://github.com/yazdanra/
       icon: ion-social-github
