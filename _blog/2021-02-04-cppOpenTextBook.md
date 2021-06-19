@@ -16,8 +16,9 @@ caption: #what displays in the blog grid:
     thumbnail: http://urdatascience.ca/assets/blog/img/cppCover.png
 
 ---
+
 I am glad to announce that our university is going to have its own CS110 textbook which is open source and free for everybody. The textbook covers everything that you need to know for CS110 and also a little bit more.
 
-You could access the textbook using the following link: <http://urdatascience.ca/electric-book/book/text/chapter_02.html>
+You could access the textbook using the following link: <http://staging.urdatascience.ca>
 
 Please let us know about your feedback in the following form: <https://docs.google.com/forms/d/e/1FAIpQLSe-iyecXfw9Mz_hUKY44DMik1p1S5mpvbuJsonbXn194N7CdA/viewform?usp=sf_link>
