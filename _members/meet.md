@@ -40,7 +40,7 @@ purple:
         - title: Applying Deep Learning for Genome Detection of Coronavirus
           text: >- 
             Multimedia Systems, Springer Nature
-        - title: Multi-Encoder-Uni-Decoder: Image Steganography Based on U-Net, V-Net, and U-Net++ Encoders
+        - title: "Multi-Encoder-Uni-Decoder Image Steganography Based on U-Net, V-Net, and U-Net++ Encoders"
           text: >- 
             Journal of Ambient Intelligence and Humanized Computing (Submitted)
         - title: Handbook of Research on Disease Prediction Through Data Analytics and Machine Learning
@@ -72,5 +72,4 @@ timeline:
           text: >-
             Developed “Smart GarbageBin” to automatically classify waste in a team of 3researchers.
             Integrated Residual Network trained on trash Net dataset with IoT and contributed to the structural design of the bin.
-
 ---
