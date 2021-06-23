@@ -154,3 +154,10 @@ groups:
           - url: https://www.linkedin.com/in/muskanlalit/
             icon: fab fa-linkedin-in
 
+      - name: "Meet Oza"
+        role: "Mitacs Globalink Intern"
+        link: https://urdatascience.ca/members/meet
+        image: assets/img/team/Meet_Oza.jpg
+        social:
+          - url: https://www.linkedin.com/in/meetoza/
+            icon: fab fa-linkedin-in
