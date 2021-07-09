@@ -19,8 +19,7 @@
     {% include _partials/meta.html %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif
-        %}</title>
+    <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ site.url }}/assets/css/bootstrap.min.css" rel="stylesheet">
