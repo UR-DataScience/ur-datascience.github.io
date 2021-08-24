@@ -10,7 +10,7 @@ categories: News Talk
 image: /assets/img/news/DataVisualizationForAnalytics.png
 
 caption: #what displays in the blog grid:
-  code: 1
+  code: 3
   title: Data Visualization for Analytics
   subtitle: Please join us with a talk titled Data Visualization for Analytics by Dr. Enayat Rajabi
   thumbnail: /assets/img/news/DataVisualizationForAnalytics_thumbnail.png
