@@ -118,34 +118,6 @@ groups:
     title: "Interns"
     text: " "
     members:
-      - name: "Brandon Sasyniuk"
-        role: "Research Intern"
-        link: https://urdatascience.ca/members/brandon
-        image: /assets/img/team/Brandon_Sasyniuk.jpg
-        social:
-          - url: https://www.linkedin.com/in/dayne-blair-6453961a2/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/dennidestroyer
-            icon: fab fa-github
-
-      - name: "Zakiyyah Noorally"
-        role: "Undergraduate Research Intern"
-        link: https://urdatascience.ca/members/zakiyyah
-        image: assets/img/team/Zakiyyah_Noorally.jpg
-        social:
-          - url: https://linkedin.com/in/zakiyyah-n-b50b7a139
-            icon: fab fa-linkedin-in
-
-      - name: "Dayne Blair"
-        role: "Undergraduate Research Assistant"
-        link: https://urdatascience.ca/members/dayne
-        image: assets/img/team/Dayne_Blair.jpg
-        social:
-          - url: https://www.linkedin.com/in/dayne-blair-6453961a2/
-            icon: fab fa-linkedin-in
-          - url: https://github.com/dennidestroyer
-            icon: fab fa-github
-
       - name: "Muskan Lalit"
         role: "Mitacs Globalink Intern"
         link: https://urdatascience.ca/members/muskan
@@ -160,4 +132,20 @@ groups:
         image: assets/img/team/Meet_Oza.jpg
         social:
           - url: https://www.linkedin.com/in/meetoza/
+            icon: fab fa-linkedin-in
+
+      - name: "Rudra Patel"
+        role: "Mitacs Globalink Intern"
+        link: https://urdatascience.ca/members/rudra
+        image: /assets/img/team/Rudra_Patel.png
+        social:
+          - url: https://www.linkedin.com/in/rudra-patel-64b7b5169/
+            icon: fab fa-linkedin-in
+
+      - name: "Zakiyyah Noorally"
+        role: "Undergraduate Research Intern"
+        link: https://urdatascience.ca/members/zakiyyah
+        image: assets/img/team/Zakiyyah_Noorally.jpg
+        social:
+          - url: https://linkedin.com/in/zakiyyah-n-b50b7a139
             icon: fab fa-linkedin-in

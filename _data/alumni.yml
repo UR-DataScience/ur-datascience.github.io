@@ -11,3 +11,13 @@ members:
     role: "M.Sc. Computer Science Student"
     link: https://urdatascience.ca/members/vineel
     image: assets/img/team/Vineel_Gannu.jpg
+
+  - name: "Brandon Sasyniuk"
+    role: "Research Intern"
+    link: https://urdatascience.ca/members/brandon
+    image: /assets/img/team/Brandon_Sasyniuk.jpg
+
+  - name: "Dayne Blair"
+    role: "Undergraduate Research Assistant"
+    link: https://urdatascience.ca/members/dayne
+    image: assets/img/team/Dayne_Blair.jpg
