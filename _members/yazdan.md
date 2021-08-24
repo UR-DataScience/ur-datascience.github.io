@@ -4,30 +4,29 @@ title: Yazdan Ranjbar
 permalink: /members/yazdan
 
 name: Yazdan Ranjbar
-role: <br> Data Science Enthusiastic <br> B.Sc. Computer Science student <br> Software Engineer
+role: <br> B.Sc. Computer Science student <br> Software Engineer
 
 image: "/assets/img/team/Yazdan_Ranjbar.jpg"
 alt: yazdan-ranjbar
 
 email: Yazdan_ra@icloud.com
-#email_text: Contact me
 
 number: "+1(639)382-2247"
-#number_text: Text only
 
-address: University of Regina, Regina, SK, Canada
-#address_text: Work
+address: Regina, SK, Canada
 
 
 social:
     - url: https://linkedin.com/in/yazdanra/
-      icon: ion-social-linkedin
+      icon: ion-social-linkedin-outline
     - url: https://github.com/yazdanra/
       icon: ion-social-github
     - url: https://twitter.com/yazdan__ra/
       icon: ion-social-twitter
     - url: https://gitlab.com/yazdan_ra
       icon: "fab fa-gitlab"
+    - url: https://yazdanra.com
+      icon: ion-ios-world-outline
 
 about: >-
     B.Sc. Computer Science student with +5 years of Algorithm programming experience includes 
@@ -44,18 +43,8 @@ about: >-
     2- [Quera College](https://quera.ir)  is the Iranian leader in Task-Oriented and 
     Interactive Online Education in Programming and Algorithmic Thinking.<br>
     [See my full background on LinkedIn](https://linkedin.com/in/yazdanra)
- 
 
-#skills:
-#    - title: Machine Learning
-#      level: 95
-#    - title: Data Science
-#      level: 95
-#    - title: Big Data Analytics
-#      level: 95
-#    - title: Management
-#      level: 95
-      
+
 
 purple:
     title: Latest Experiences!
@@ -64,17 +53,14 @@ purple:
         - title: Software Engineer
           subtitle: Daraya
           status: SEP 2020 - MAY 2021
-          text: >-
-            Design, implement, Develop, and set up the Daraya (Finance Platform) Back-end side. Mentoring the <br>
-            In the related projects, We worked with lots of tools such as 
-            [Django](https://www.djangoproject.com) and [Django REST Framework(DRF)](https://www.django-rest-framework.org), 
-            [Amazon Web Service(AWS)](https://aws.amazon.com), 
-            [Kubernetes](https://kubernetes.io),
-            [Docker](https://www.docker.com) and [Docker-Compose](https://docs.docker.com/compose/),
-            [Redis](https://redis.io) and [Celery](https://docs.celeryproject.org/en/stable/),
-            [PostgreSQL](https://www.postgresql.org),
-            [Git](https://git-scm.com) and specially [Gitlab](https://gitlab.com);
-            and a lot of other tools. <br>
+          text: Route Compass Investment in the Market World <br>
+          points:
+              - Responsible for managing the technical aspects of the team such as selecting proper technologies, designing the architecture of the system and database. Interviewer of people who had applied to join the company.
+              - Designed, developed, and owner of a crawler service. Used 3-Tier architecture and design patterns such as Proxy, Adaptor, and Private Class Data.
+              - Designed and Implemented a reservation system service, a micro-service that handles the reservations, reminders, and online meetings between advisors and customers. (Django, PostgreSQL, Docker, Minio, DRF)
+              - Responsible for infrastructure and Deployment of different services. Oversaw test pipelines, zero downtime deployment, technical monitoring, and troubleshooting. (Kubernetes, Docker Swarm, GitLab Runner, Prometheus, Grafana)
+              - Refactored and merged an old service to production. (DRF, Connection Pooling, Async, ThreadPool, ThreadProcess)
+              - Team-work experience in large-scale projects and teams that are integrated with each other efficiently and effectively.
         - title: Scientific Programmer and Contest Organizer
           subtitle: Quera College
           status: NOV 2019 – OCT 2020
@@ -95,7 +81,7 @@ timeline:
     events:
         - title: B.Sc. Computer Science
           subtitle: University of Regina
-          status: 2021 - PRESENT
+          status: 2021 - 2025 (EXPECTED)
           text: >-
             I'm contributing in the Data Science lab projects under 
             the supervision of [PhD. Alireza Manashty](https://urdatascience.ca/members/alireza).
@@ -103,7 +89,7 @@ timeline:
           subtitle: Allame Helli High School 
           status: 2013 – 2019
           text: >-
-            Member of [National Organization for Development of Exceptional Talents](https://en.wikipedia.org/wiki/National_Organization_for_Development_of_Exceptional_Talents) (NODET)
+            Affiliated with the [National Organization for Development of Exceptional Talents](https://en.wikipedia.org/wiki/National_Organization_for_Development_of_Exceptional_Talents) (NODET)
 
 
 footer:
@@ -115,27 +101,3 @@ footer:
       count: 20
 
 ---
-
-![Yazdan's github stats](https://github-readme-stats.vercel.app/api?username=yazdanra&count_private=true&show_icons=true)
-
-<br><br>
-## **Some of Repositories**
-<br><br>
-
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=yazdanra&repo=django-itelegram)](https://github.com/yazdanra/django-itelegram) 
-
----
-
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=yazdanra&repo=pytse-client)](https://github.com/yazdanra/pytse-client)
-
----
-
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=querateam&repo=django-qsessions)](https://github.com/querateam/django-qsessions)
-
----
-
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=yazdanra&repo=gharar)](https://github.com/YazdanRa/gharar)
-
----
-
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=alireza8n&repo=django-backend)](https://github.com/alireza8n/django-backend)
