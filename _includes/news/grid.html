@@ -53,7 +53,7 @@
 
             <!-- Card footer -->
             <div class="card-footer text-muted text-center">
-                {{ news.date|date:"%Y-%m-%d" }}
+                {{ news.date|date:"%d %b, %Y" }}
             </div>
 
         </div>
@@ -62,6 +62,7 @@
         {% endfor %}
     </div>
     {%- if site.data.news.button -%}
+    <br>
     <div class="row">
         <div class="col-lg-4 mx-auto text-center">
             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
