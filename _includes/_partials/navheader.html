@@ -1,18 +1,14 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"
-           style="font-family:georgia,garamond,serif;font-size:28px;">
-            {%- if site.logo -%}
-            <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
-            {%- else -%}
-            {{ site.title }}
-            {%- endif -%}
+        <a class="navbar-brand js-scroll-trigger" href="#page-top" style="font-family:georgia,garamond,serif;font-size:25px;">
+            <span>D</span>ata
+            <span>S</span>cience
+            <span>L</span>aboratory
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
-            Menu
             <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -37,36 +33,30 @@
 
 <!-- Header -->
 <header class="masthead">
+
     <div class="container">
+
         <div class="intro-text">
-            {%- if site.data.sitetext.header.title -%}
-            <div class="intro-heading text-uppercase"
-                 {%- if site.data.sitetext.header.titleanimation -%}
-                 data-aos="{{ site.data.sitetext.header.titleanimation }}"
-                 {%- endif -%}
-            >
-                {{ site.data.sitetext.header.title | markdownify }}
+            <div class="intro-heading text-uppercase">
+                <span>D</span>ata
+                <span>S</span>cience
+                <br>
+                <span>L</span>aboratory
             </div>
-            {%- endif -%}
 
-            {%- if site.data.sitetext.header.text -%}
-            <h1>
-                The hub of data science
-                <span class="txt-rotate"
+            <div class="intro-subheading">
+                <p>The hub of data science</p>
+                <p>
+                    <span class="txt-rotate"
                       data-period="2000"
-                      data-rotate='{{ site.data.sitetext.header.text }}'>
-                </span>
-                at the <a href="https://uregina.ca">U of Regina</a>
-            </h1>
-            {%- endif -%}
-
-            {%- if site.data.sitetext.header.button -%}
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-               href="{{ site.data.sitetext.header.buttonlink }}">
-                {{ site.data.sitetext.header.button }}
-            </a>
-            {%- endif -%}
+                      data-rotate='["research", "research"]'>
+                    </span>
+                </p>
+                <p>at the <a href="https://uregina.ca" target="_blank">U of Regina</a></p>
+            </div>
         </div>
+
     </div>
+
 </header>
 <!-- End Header -->
