@@ -2,7 +2,7 @@ title: Data Science Lab is supported by
 text: 
 section: clients
 max-height: 100px
-horizontal-scrolling: "yes" #"yes/no"
+horizontal-scrolling: "no" #"yes/no"
 list:
   - title: "NSERC"
     url: https://www.nserc-crsng.gc.ca/index_eng.asp

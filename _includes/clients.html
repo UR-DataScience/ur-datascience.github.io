@@ -14,13 +14,12 @@
          {% endif %}
     >
         {% for client in site.data.clients.list %}
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-2 col-sm-6">
             <a href="{{ client.url }}">
                 <img class="img-fluid d-block mx-auto"
                      src="{{ client.logo }}"
                      alt="{{ client.title }}"
-                     style="max-height: {{ site.data.clients.max-height | default: " 100px" }}"
-                >
+                     style="max-height: 100px">
             </a>
         </div>
         {% endfor %}
