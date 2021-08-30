@@ -1,7 +1,8 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top" style="font-family:georgia,garamond,serif;font-size:25px;">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"
+           style="font-family:georgia,garamond,serif;font-size:25px;">
             <span>D</span>ata
             <span>S</span>cience
             <span>L</span>aboratory
@@ -32,31 +33,77 @@
 <!-- End Navigation -->
 
 <!-- Header -->
-<header class="masthead">
+<header class="masthead slideshow-container">
 
-    <div class="container">
 
-        <div class="intro-text">
-            <div class="intro-heading text-uppercase">
-                <span>D</span>ata
-                <span>S</span>cience
-                <br>
-                <span>L</span>aboratory
-            </div>
+<!--    <div class="intro-text">-->
+<!--        <div class="intro-heading text-uppercase">-->
+<!--            <span>D</span>ata-->
+<!--            <span>S</span>cience-->
+<!--            <br>-->
+<!--            <span>L</span>aboratory-->
+<!--        </div>-->
 
-            <div class="intro-subheading">
-                <p>The hub of data science</p>
-                <p>
-                    <span class="txt-rotate"
-                      data-period="2000"
-                      data-rotate='["research", "research"]'>
-                    </span>
-                </p>
-                <p>at the <a href="https://uregina.ca" target="_blank">U of Regina</a></p>
-            </div>
-        </div>
+<!--        <div class="intro-subheading">-->
+<!--            <p>The hub of data science</p>-->
+<!--            <p>-->
+<!--                <span class="txt-rotate"-->
+<!--                      data-period="2000"-->
+<!--                      data-rotate='["research", "research"]'>-->
+<!--                </span>-->
+<!--            </p>-->
+<!--            <p>at the <a href="https://uregina.ca" target="_blank">U of Regina</a></p>-->
+<!--        </div>-->
+<!--    </div>-->
 
+
+
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+        <img src="/assets/img/header/header00.jpg">
+        <div class="text">Caption Text</div>
     </div>
+
+    <div class="mySlides fade">
+        <img src="/assets/img/header/header01.jpg">
+        <div class="text">Caption Two</div>
+    </div>
+
+    <div class="mySlides fade">
+        <img src="/assets/img/header/header02.jpg">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <img src="/assets/img/header/header03.jpg">
+        <div class="text">Caption 4435</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
 </header>
 <!-- End Header -->
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n=1) {
+        showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+        var slides = document.getElementsByClassName("mySlides");
+        for (var i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex = ( n + slides.length ) % slides.length;
+        slides[slideIndex].style.display = "block";
+        setTimeout(plusSlides, 5000);
+    }
+
+</script>
