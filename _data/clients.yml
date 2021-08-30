@@ -4,14 +4,25 @@ section: clients
 max-height: 100px
 horizontal-scrolling: "yes" #"yes/no"
 list:
-  - title: "Nvidia"
-    url: https://www.nvidia.com/
-    logo: assets/img/clients/nvidia.png
-  - title: "Kaggle"
-    url: https://www.kaggle.com
-    logo: assets/img/clients/Kaggle.png
+  - title: "NSERC"
+    url: https://www.nserc-crsng.gc.ca/index_eng.asp
+    logo: assets/img/clients/NSERC_RGB.png
+
   - title: "Mitacs"
     url: https://www.mitacs.ca/en
     logo: assets/img/clients/Mitacs.png
+
+  - title: "Nvidia"
+    url: https://www.nvidia.com/
+    logo: assets/img/clients/nvidia.png
+
+  - title: "Kaggle"
+    url: https://www.kaggle.com
+    logo: assets/img/clients/Kaggle.png
+
+  - title: "University of Regina"
+    url: https://uregina.ca
+    logo: https://www.uregina.ca/external/communications/assets/identity1/Primary_Logo/Full%20Colour/UR_Logo_Primary_Full_COlour_RGB.png
+
 button: Be our client # optional
 buttonlink: "" # "URL/page link" optional
