@@ -1,64 +1,67 @@
 {% if site.data.news.is_active %}
 <section class="bg-light page-section" id="{{ site.data.news.section | default: 'news' }}">
-<div class="container">
-    <div class="row">
-        <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">
-                {{ site.data.news.title | markdownify | default: "news" }}
-            </h2>
-            <h3 class="section-subheading text-muted">
-                {{ site.data.news.text | markdownify }}
-            </h3>
-        </div>
-    </div>
-    <div class="row" style="grid-column-gap: 10px; grid-row-gap: 10px; flex-wrap: unset;">
-        {% for news in site.news %}
-        {% for code in site.data.news.index %}
-        {% if news.caption.code == code %}
-        <div class="col-lg-4 card card-cascade">
-
-            <!-- Card image -->
-            <div class="view view-cascade overlay">
-                <img class="card-img-top"
-                     src="{{ news.caption.thumbnail }}"
-                     alt="{{ news.alt }}">
-                <a>
-                    <div class="mask rgba-white-slight"></div>
-                </a>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">
+                    {{ site.data.news.title | default: "news" }}
+                </h2>
+                <h3 class="section-subheading text-muted">
+                    {{ site.data.news.text | markdownify }}
+                </h3>
             </div>
-
-            <!-- Card content -->
-            <div class="card-body card-body-cascade text-center">
-                <!-- Title -->
-                <h4 class="card-title"><strong>{{ news.caption.title }}</strong></h4>
-                <!-- Link -->
-                <a href="{{ news.url }}" class="orange-text d-flex flex-row-reverse p-2">
-                    <h5 class="waves-effect waves-light">
-                        Read more
-                        <i class="fas fa-angle-double-right ml-2"></i>
-                    </h5>
-                </a>
-            </div>
-
-            <!-- Card footer -->
-            <div class="card-footer text-muted text-center">
-                {{ news.date|date:"%d %b, %Y" }}
-            </div>
-
         </div>
-        {% endif %}
-        {% endfor %}
-        {% endfor %}
-    </div>
-    {%- if site.data.news.button -%}
-    <br>
-    <div class="row">
-        <div class="col-lg-4 mx-auto text-center">
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-               href="{{ site.data.news.button.link }}">{{ site.data.news.button.text }}</a>
+        <div class="row" style="grid-column-gap: 10px; grid-row-gap: 10px; flex-wrap: unset;">
+            {% for news in site.news %}
+            {% for code in site.data.news.index %}
+            {% if news.caption.code == code %}
+            <div class="col-lg-4 card card-cascade" style="padding-left: unset; padding-right: unset;">
+
+                <!-- Card content -->
+                <div class="card-body card-body-cascade text-center">
+
+                    <!-- Title -->
+                    <h4 class="card-title"><strong>{{ news.caption.title }}</strong></h4>
+
+                    <!-- Text -->
+                    <p class="card-text" style="padding-top: inherit;">{{ news.subtitle | markdownify }}</p>
+
+                    <!-- Card image -->
+                    <div class="view view-cascade overlay" style="padding-top: inherit;">
+                        <img class="card-img-top"
+                             src="{{ news.caption.thumbnail }}"
+                             alt="{{ news.alt }}">
+                        <a><div class="mask rgba-white-slight"></div></a>
+                    </div>
+
+                </div>
+
+                <!-- Card footer -->
+                <div class="card-footer text-muted text-left">
+                    <!-- Date -->
+                    <span style="float: left;">{{ news.date|date:"%d %b, %Y" }}</span>
+                    <!-- Link -->
+                    <a href="{{ news.url }}" class="orange-text d-flex flex-row-reverse">
+                        <h6 class="waves-effect waves-light">
+                            Read more <i class="fas fa-angle-double-right ml-2"></i>
+                        </h6>
+                    </a>
+                </div>
+
+            </div>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
         </div>
+        {%- if site.data.news.button -%}
+        <br>
+        <div class="row">
+            <div class="col-lg-4 mx-auto text-center">
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+                   href="{{ site.data.news.button.link }}">{{ site.data.news.button.text }}</a>
+            </div>
+        </div>
+        {%- endif -%}
     </div>
-    {%- endif -%}
-</div>
 </section>
 {% endif %}
