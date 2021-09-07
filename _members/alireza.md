@@ -1,7 +1,7 @@
 ---
 layout: person
 title: Alireza Manashty
-permalink: /members/alireza/
+permalink: /members/alireza
 
 name: Alireza Manashty
 role: Director, Data Science Laboratory <br> Assistant Professor, Computer Science Department <br> University of Regina

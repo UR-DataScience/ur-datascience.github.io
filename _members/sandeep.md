@@ -1,7 +1,7 @@
 ---
 layout: person
 title: Sandeep Tandra
-permalink: /members/sandeep/
+permalink: /members/sandeep
 
 name: Sandeep Tandra
 role: Graduate Student

@@ -1,7 +1,7 @@
 ---
 layout: person
 title: Zakiyyah Noorally
-permalink: /members/zakiyyah/
+permalink: /members/zakiyyah
 
 name: Zakiyyah Noorally	
 role: Undergraduate Research Intern

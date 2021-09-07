@@ -8,7 +8,7 @@ groups:
     members:
       - name: "Dr. Alireza Manashty"
         role: "Director, Data Science Laboratory <br> Assistant Professor, University of Regina"
-        link: http://urdatascience.ca/members/alireza/
+        link: http://urdatascience.ca/members/alireza
         image: assets/img/team/Alireza_Manashty.jpg
         social:
           - url: https://linkedin.com/in/manashty/
@@ -32,7 +32,7 @@ groups:
     members:
       - name: "Ghazal (Baran) Erfani"
         role: "Research Assistant"
-        link: http://urdatascience.ca/members/baran/
+        link: http://urdatascience.ca/members/baran
         image: assets/img/team/Baran_Erfani.jpg
         social:
           - url: https://www.linkedin.com/in/baranerf/
@@ -65,7 +65,7 @@ groups:
       - name: "Sandeep Tandra"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Sandeep_Tandra.jpg
-        link: http://urdatascience.ca/members/sandeep/
+        link: http://urdatascience.ca/members/sandeep
         social:
           - url: https://www.linkedin.com/in/sandeeptandra/
             icon: fab fa-linkedin-in

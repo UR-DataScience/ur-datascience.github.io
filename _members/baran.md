@@ -1,7 +1,7 @@
 ---
 layout: person
 title: Baran (Ghazal) Erfani
-permalink: /members/baran/
+permalink: /members/baran
 
 name: Baran (Ghazal) Erfani
 role: Undergraduate Researcher

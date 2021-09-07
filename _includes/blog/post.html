@@ -3,13 +3,21 @@
         <header class="post-header">
             <h1 class="post-title">{{ page.title }}</h1>
             <p class="post-date">
-                Posted
-                <time datetime="{{ page.page.date }}"> {{ page.date|date:"%Y %m %d" }}</time>
+                Posted on
+                <time datetime="{{ page.page.date }}"> {{ page.date | date:"%Y %m %d" }}</time>
+
+                {% for member in site.members %}
+                    {% assign member_username = member.url | replace: "/members/", "" %}
+                    {% if page.author == member_username %}
+                        by <a href="{{ member.url }}">{{ member.name }}</a>
+                    {% endif %}
+                {% endfor %}
+
             </p>
         </header>
 
         <picture class="post-figure">
-            <img src="{{ page.image }}" alt="{{ alt }}">
+            <img src="{{ page.image }}" alt="{{ alt }}" style="max-width: {{ page.max_img_width | default 'unset' }}">
         </picture>
 
         {{ content | markdownify }}

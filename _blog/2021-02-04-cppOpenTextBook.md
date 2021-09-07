@@ -8,6 +8,7 @@ categories: C++
 
 
 image: /assets/blog/img/cppCover.png
+max_img_width: 300px
 
 caption: #what displays in the blog grid:
     code: 4
