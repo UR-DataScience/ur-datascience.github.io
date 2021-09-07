@@ -3,13 +3,16 @@
         <header class="post-header">
             <h1 class="post-title">{{ page.title }}</h1>
             <p class="post-date">
+
                 Posted on
                 <time datetime="{{ page.page.date }}"> {{ page.date | date:"%Y %m %d" }}</time>
 
                 {% for member in site.members %}
                     {% assign member_username = member.url | replace: "/members/", "" %}
                     {% if page.author == member_username %}
-                        by <a href="{{ member.url }}">{{ member.name }}</a>
+                        by
+                        <a href="{{ member.url }}" style="display: inline;color: inherit">{{ member.name }}</a>
+                        <img src="{{ member.image }}" class="author-photo">
                     {% endif %}
                 {% endfor %}
 
