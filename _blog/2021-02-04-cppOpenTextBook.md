@@ -7,7 +7,7 @@ date: Feb 4, 2021
 categories: C++
 
 
-image:  
+image: /assets/blog/img/cppCover.png
 
 caption: #what displays in the blog grid:
     code: 4
