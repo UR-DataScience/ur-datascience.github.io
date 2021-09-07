@@ -6,6 +6,7 @@ subtitle: "We are accepting three MITAS Globalink interns for Summer 2021 at the
 date: Sep 12, 2020
 categories: job posting
 
+author: alireza
 
 image:
 alt: 
