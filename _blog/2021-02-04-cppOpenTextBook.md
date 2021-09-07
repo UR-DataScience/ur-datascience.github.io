@@ -6,6 +6,7 @@ subtitle: An online open source textbook for CS110 students.
 date: Feb 4, 2021
 categories: C++
 
+author: baran
 
 image: /assets/blog/img/cppCover.png
 max_img_width: 300px
