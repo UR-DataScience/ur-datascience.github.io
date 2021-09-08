@@ -8,22 +8,22 @@ groups:
     members:
       - name: "Dr. Alireza Manashty"
         role: "Director, Data Science Laboratory <br> Assistant Professor, University of Regina"
-        link: /members/alireza
+        link: members/alireza
         image: assets/img/team/Alireza_Manashty.jpg
         social:
-          - url: https://linkedin.com/in/manashty/
+          - url: https://linkedin.com/in/manashty
             icon: fab fa-linkedin-in
       - name: "Dr. Stephen Lee"
         role: "Assistant Professor<br>University of Saskatchewan"
         image: assets/img/team/Stephen_Lee.jpg
         social:
-          - url: https://www.linkedin.com/in/stephen-lee222/
+          - url: https://www.linkedin.com/in/stephen-lee222
             icon: fab fa-linkedin-in
       - name: "Dr. Enayat Rajabi"
         role: "Assistant Professor, Business Analytics<br>Cape Breton University"
         image: assets/img/team/Enayat_Rajabi.jpg
         social:
-          - url: https://www.linkedin.com/in/enayat-rajabi-609aa142/
+          - url: https://www.linkedin.com/in/enayat-rajabi-609aa142
             icon: fab fa-linkedin-in
 
   - Research Assistants:
@@ -32,18 +32,19 @@ groups:
     members:
       - name: "Ghazal (Baran) Erfani"
         role: "Research Assistant"
-        link: /members/baran
+        link: members/baran
         image: assets/img/team/Baran_Erfani.jpg
         social:
-          - url: https://www.linkedin.com/in/baranerf/
+          - url: https://www.linkedin.com/in/baranerf
             icon: fab fa-linkedin-in
 
-      - name: "Yazdan Ranjbar"
+      - user: yazdan
+        name: "Yazdan Ranjbar"
         role: "Research Assistant"
         image: assets/img/team/Yazdan_Ranjbar.jpg
-        link: /members/yazdan
+        link: members/yazdan
         social:
-          - url: https://www.linkedin.com/in/yazdanra/
+          - url: https://www.linkedin.com/in/yazdanra
             icon: fab fa-linkedin-in
           - url: https://github.com/yazdanra
             icon: fab fa-github
@@ -52,7 +53,7 @@ groups:
 
       - name: "Shiva Souri"
         role: "Research Assistant"
-        link: /members/shiva
+        link: members/shiva
         image: assets/img/team/Shiva_Souri.jpg
         social:
           - url: https://www.linkedin.com/in/shiva-souri-b69a22208
@@ -65,52 +66,52 @@ groups:
       - name: "Sandeep Tandra"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Sandeep_Tandra.jpg
-        link: /members/sandeep
+        link: members/sandeep
         social:
-          - url: https://www.linkedin.com/in/sandeeptandra/
+          - url: https://www.linkedin.com/in/sandeeptandra
             icon: fab fa-linkedin-in
 
       - name: "Vignesh Shankar"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Vignesh_Shankar.jpg
         social:
-          - url: https://www.linkedin.com/in/vigneshshankar30/
+          - url: https://www.linkedin.com/in/vigneshshankar30
             icon: fab fa-linkedin-in
 
       - name: "Henrik Steenbock"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Man_Default.jpg
         social:
-          - url: https://www.linkedin.com/in/henrik-steenbock-a3464a174/
+          - url: https://www.linkedin.com/in/henrik-steenbock-a3464a174
             icon: fab fa-linkedin-in
 
       - name: "Saroj(Tsuyog) Basnet"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Tsuyog_Basnet.jpg
         social:
-          - url: https://www.linkedin.com/in/tsuyog/
+          - url: https://www.linkedin.com/in/tsuyog
             icon: fab fa-linkedin-in
 
       - name: "Sirvan Paraste"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Sirvan_Paraste.jpg
-        link: /members/sirvan
+        link: members/sirvan
         social:
-          - url: https://www.linkedin.com/in/sirvanparasteh/
+          - url: https://www.linkedin.com/in/sirvanparasteh
             icon: fab fa-linkedin-in
 
       - name: "Jay Joshi"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Jay_Joshi.jpg
         social:
-          - url: https://www.linkedin.com/in/jay-joshi-6b19b31b2/
+          - url: https://www.linkedin.com/in/jay-joshi-6b19b31b2
             icon: fab fa-linkedin-in
 
       - name: "Elnaz Yousefi"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Elnaz_Yousefi.jpg
         social:
-          - url: https://www.linkedin.com/in/elnaz-yousefi/
+          - url: https://www.linkedin.com/in/elnaz-yousefi
             icon: fab fa-linkedin-in
 
 
@@ -120,31 +121,31 @@ groups:
     members:
       - name: "Muskan Lalit"
         role: "Mitacs Globalink Intern"
-        link: https://urdatascience.ca/members/muskan
+        link: members/muskan
         image: assets/img/team/Muskan_Lalit.jpg
         social:
-          - url: https://www.linkedin.com/in/muskanlalit/
+          - url: https://www.linkedin.com/in/muskanlalit
             icon: fab fa-linkedin-in
 
       - name: "Meet Oza"
         role: "Mitacs Globalink Intern"
-        link: https://urdatascience.ca/members/meet
+        link: members/meet
         image: assets/img/team/Meet_Oza.jpg
         social:
-          - url: https://www.linkedin.com/in/meetoza/
+          - url: https://www.linkedin.com/in/meetoza
             icon: fab fa-linkedin-in
 
       - name: "Rudra Patel"
         role: "Mitacs Globalink Intern"
-        link: https://urdatascience.ca/members/rudra
+        link: members/rudra
         image: /assets/img/team/Rudra_Patel.png
         social:
-          - url: https://www.linkedin.com/in/rudra-patel-64b7b5169/
+          - url: https://www.linkedin.com/in/rudra-patel-64b7b5169
             icon: fab fa-linkedin-in
 
       - name: "Zakiyyah Noorally"
         role: "Undergraduate Research Intern"
-        link: https://urdatascience.ca/members/zakiyyah
+        link: members/zakiyyah
         image: assets/img/team/Zakiyyah_Noorally.jpg
         social:
           - url: https://linkedin.com/in/zakiyyah-n-b50b7a139
