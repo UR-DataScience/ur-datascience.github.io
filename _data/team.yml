@@ -8,7 +8,7 @@ groups:
     members:
       - name: "Dr. Alireza Manashty"
         role: "Director, Data Science Laboratory <br> Assistant Professor, University of Regina"
-        link: http://urdatascience.ca/members/alireza
+        link: /members/alireza
         image: assets/img/team/Alireza_Manashty.jpg
         social:
           - url: https://linkedin.com/in/manashty/
@@ -32,7 +32,7 @@ groups:
     members:
       - name: "Ghazal (Baran) Erfani"
         role: "Research Assistant"
-        link: http://urdatascience.ca/members/baran
+        link: /members/baran
         image: assets/img/team/Baran_Erfani.jpg
         social:
           - url: https://www.linkedin.com/in/baranerf/
@@ -41,7 +41,7 @@ groups:
       - name: "Yazdan Ranjbar"
         role: "Research Assistant"
         image: assets/img/team/Yazdan_Ranjbar.jpg
-        link: http://urdatascience.ca/members/yazdan
+        link: /members/yazdan
         social:
           - url: https://www.linkedin.com/in/yazdanra/
             icon: fab fa-linkedin-in
@@ -52,7 +52,7 @@ groups:
 
       - name: "Shiva Souri"
         role: "Research Assistant"
-        link: http://urdatascience.ca/members/shiva
+        link: /members/shiva
         image: assets/img/team/Shiva_Souri.jpg
         social:
           - url: https://www.linkedin.com/in/shiva-souri-b69a22208
@@ -65,7 +65,7 @@ groups:
       - name: "Sandeep Tandra"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Sandeep_Tandra.jpg
-        link: http://urdatascience.ca/members/sandeep
+        link: /members/sandeep
         social:
           - url: https://www.linkedin.com/in/sandeeptandra/
             icon: fab fa-linkedin-in
@@ -94,7 +94,7 @@ groups:
       - name: "Sirvan Paraste"
         role: "M.Sc. Student in Computer Science"
         image: assets/img/team/Sirvan_Paraste.jpg
-        link: http://urdatascience.ca/members/sirvan
+        link: /members/sirvan
         social:
           - url: https://www.linkedin.com/in/sirvanparasteh/
             icon: fab fa-linkedin-in
