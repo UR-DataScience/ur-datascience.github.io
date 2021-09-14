@@ -20,7 +20,9 @@
         </header>
 
         <picture class="post-figure">
-            <img src="{{ page.image }}" alt="{{ alt }}" style="max-width: {{ page.max_img_width | default 'unset' }}">
+            <img
+                    src="{{ page.image }}" alt="{{ alt }}"
+                    style="max-width: {{ page.max_img_width | default 'unset' }}; {% if page.img_position_center == true %} margin-left:auto;margin-right:auto; {% endif %}">
         </picture>
 
         {{ content | markdownify }}
