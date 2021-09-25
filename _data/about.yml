@@ -1,10 +1,11 @@
-title: "Data Science Laboratory"
+title: "More About Us"  # "Data Science Laboratory"
 section: about
+
+main_text: >-
+  The Data Science Lab at the University of Regina is the hub for leading
+  data science research and industry collaboration in the province and worldwide.
+
 events:
-  - title: "About us"
-    text: >-
-      The Data Science Lab at the University of Regina is the hub for leading
-      data science research and industry collaboration in the province and worldwide.
   - title: "Mission Statement"
     text: >-
       Our mission in *DATA SCIENCE LABORATORY* at the *University of Regina* is to provide a
@@ -15,6 +16,7 @@ events:
       the standards of lives. For a better impact, we aspire to collaborate with established researchers
       and institutions not only in the Data Science era but also in other fields of sciences
       that can be integrated with our mission’s scopes.
+
   - title: "Core Values"
     text: >-
       Data Science Laboratory at the University of Regina operates by the following guiding principles and Values:

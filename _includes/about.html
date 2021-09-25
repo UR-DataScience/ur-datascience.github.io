@@ -1,19 +1,29 @@
 <!-- About -->
-<section class="page-section" id="{{ site.data.about.section | default: " about" }}">
-<div class="container">
-    <div class="row">
-        <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">{{ site.data.about.title | default: "About Us" }}</h2>
+<section class="page-section" id="{{ site.data.about.section | default: 'about' }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">{{ site.data.about.title | default: "About Us" }}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <div class="large">{{ site.data.about.main_text | markdownify }}</div>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            {% for event in site.data.about.events %}
+            <div class="col-sm-6">
+                <div class="card border border-warning">
+                    <div class="card-body">
+                        <h3 class="card-title">{{ event.title }}</h3>
+                        <p class="card-text">{{ event.text | markdownify }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
         </div>
     </div>
-    {% for event in site.data.about.events %}
-    <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-            <h3 class="section-heading text-muted">{{ event.title | default: "" }}</h3>
-            <div class="large text-muted">{{ event.text | markdownify }}</div>
-        </div>
-    </div>
-</div>
-{% endfor %}
 </section>
 <!-- End About -->
