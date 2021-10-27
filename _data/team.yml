@@ -51,13 +51,13 @@ groups:
           - url: https://gitlab.com/yazdan_ra
             icon: fab fa-gitlab
 
-      - name: "Shiva Souri"
-        role: "Research Assistant"
-        link: members/shiva
-        image: assets/img/team/Shiva_Souri.jpg
-        social:
-          - url: https://www.linkedin.com/in/shiva-souri-b69a22208
-            icon: fab fa-linkedin-in
+#      - name: "Shiva Souri"
+#        role: "Research Assistant"
+#        link: members/shiva
+#        image: assets/img/team/Shiva_Souri.jpg
+#        social:
+#          - url: https://www.linkedin.com/in/shiva-souri-b69a22208
+#            icon: fab fa-linkedin-in
 
   - Graduate Students:
     title: "Graduate Students"
@@ -92,13 +92,13 @@ groups:
           - url: https://www.linkedin.com/in/tsuyog
             icon: fab fa-linkedin-in
 
-      - name: "Sirvan Paraste"
-        role: "M.Sc. Student in Computer Science"
-        image: assets/img/team/Sirvan_Paraste.jpg
-        link: members/sirvan
-        social:
-          - url: https://www.linkedin.com/in/sirvanparasteh
-            icon: fab fa-linkedin-in
+#      - name: "Sirvan Paraste"
+#        role: "M.Sc. Student in Computer Science"
+#        image: assets/img/team/Sirvan_Paraste.jpg
+#        link: members/sirvan
+#        social:
+#          - url: https://www.linkedin.com/in/sirvanparasteh
+#            icon: fab fa-linkedin-in
 
       - name: "Jay Joshi"
         role: "M.Sc. Student in Computer Science"
@@ -107,12 +107,12 @@ groups:
           - url: https://www.linkedin.com/in/jay-joshi-6b19b31b2
             icon: fab fa-linkedin-in
 
-      - name: "Elnaz Yousefi"
-        role: "M.Sc. Student in Computer Science"
-        image: assets/img/team/Elnaz_Yousefi.jpg
-        social:
-          - url: https://www.linkedin.com/in/elnaz-yousefi
-            icon: fab fa-linkedin-in
+#      - name: "Elnaz Yousefi"
+#        role: "M.Sc. Student in Computer Science"
+#        image: assets/img/team/Elnaz_Yousefi.jpg
+#        social:
+#          - url: https://www.linkedin.com/in/elnaz-yousefi
+#            icon: fab fa-linkedin-in
 
 
   - Interns:
