@@ -4,20 +4,40 @@ text: " "
 members:
   - name: "Mahtab Farokhfari"
     role: "Research Assistant & Coordinator"
-    link: https://urdatascience.ca/members/mahtab
+    link: members/mahtab
     image: assets/img/team/Mahtab_Farokhfari.jpg
 
   - name: "Vineel Gannu"
     role: "M.Sc. Computer Science Student"
-    link: https://urdatascience.ca/members/vineel
+    link: members/vineel
     image: assets/img/team/Vineel_Gannu.jpg
 
   - name: "Brandon Sasyniuk"
-    role: "Research Intern"
-    link: https://urdatascience.ca/members/brandon
+    role: "Research Intern <br> SUMMER 2021"
+    link: members/brandon
     image: /assets/img/team/Brandon_Sasyniuk.jpg
 
   - name: "Dayne Blair"
-    role: "Undergraduate Research Assistant"
-    link: https://urdatascience.ca/members/dayne
+    role: "Undergraduate Research Assistant <br> SUMMER 2021"
+    link: members/dayne
     image: assets/img/team/Dayne_Blair.jpg
+
+  - name: "Muskan Lalit"
+    role: "Mitacs Globalink Intern <br> SUMMER 2021"
+    link: members/muskan
+    image: assets/img/team/Muskan_Lalit.jpg
+
+  - name: "Meet Oza"
+    role: "Mitacs Globalink Intern <br> SUMMER 2021"
+    link: members/meet
+    image: assets/img/team/Meet_Oza.jpg
+
+  - name: "Rudra Patel"
+    role: "Mitacs Globalink Intern <br> SUMMER 2021"
+    link: members/rudra
+    image: /assets/img/team/Rudra_Patel.png
+
+  - name: "Zakiyyah Noorally"
+    role: "UGRA intern <br> SUMMER 2021"
+    link: members/zakiyyah
+    image: assets/img/team/Zakiyyah_Noorally.jpg

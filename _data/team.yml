@@ -51,6 +51,14 @@ groups:
           - url: https://gitlab.com/yazdan_ra
             icon: fab fa-gitlab
 
+      - name: "Zakiyyah Noorally"
+        role: "Research Assistant"
+        link: members/zakiyyah
+        image: assets/img/team/Zakiyyah_Noorally.jpg
+        social:
+          - url: https://linkedin.com/in/zakiyyah-n-b50b7a139
+            icon: fab fa-linkedin-in
+
 #      - name: "Shiva Souri"
 #        role: "Research Assistant"
 #        link: members/shiva
@@ -115,38 +123,7 @@ groups:
 #            icon: fab fa-linkedin-in
 
 
-  - Interns:
-    title: "Interns"
-    text: " "
-    members:
-      - name: "Muskan Lalit"
-        role: "Mitacs Globalink Intern"
-        link: members/muskan
-        image: assets/img/team/Muskan_Lalit.jpg
-        social:
-          - url: https://www.linkedin.com/in/muskanlalit
-            icon: fab fa-linkedin-in
-
-      - name: "Meet Oza"
-        role: "Mitacs Globalink Intern"
-        link: members/meet
-        image: assets/img/team/Meet_Oza.jpg
-        social:
-          - url: https://www.linkedin.com/in/meetoza
-            icon: fab fa-linkedin-in
-
-      - name: "Rudra Patel"
-        role: "Mitacs Globalink Intern"
-        link: members/rudra
-        image: /assets/img/team/Rudra_Patel.png
-        social:
-          - url: https://www.linkedin.com/in/rudra-patel-64b7b5169
-            icon: fab fa-linkedin-in
-
-      - name: "Zakiyyah Noorally"
-        role: "Undergraduate Research Intern"
-        link: members/zakiyyah
-        image: assets/img/team/Zakiyyah_Noorally.jpg
-        social:
-          - url: https://linkedin.com/in/zakiyyah-n-b50b7a139
-            icon: fab fa-linkedin-in
+#  - Interns:
+#    title: "Interns"
+#    text: " "
+#    members:
