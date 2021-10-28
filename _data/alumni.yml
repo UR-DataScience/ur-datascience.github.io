@@ -4,46 +4,56 @@ text: " "
 members:
   - name: "Mahtab Farokhfari"
     role: "Research Assistant & Coordinator"
+    time: ""
+    hover_text: "Managed ..."
     link: members/mahtab
     image: assets/img/team/Mahtab_Farokhfari.jpg
 
   - name: "Vineel Gannu"
     role: "M.Sc. Computer Science Student"
+    time: ""
+    hover_text: "Researched on ..."
     link: members/vineel
     image: assets/img/team/Vineel_Gannu.jpg
 
   - name: "Brandon Sasyniuk"
     role: "Research Intern"
     time: "Summer 2021"
+    hover_text: "Worked on ..."
     link: members/brandon
     image: /assets/img/team/Brandon_Sasyniuk.jpg
 
   - name: "Dayne Blair"
     role: "Undergraduate Research Assistant"
     time: "Summer 2021"
+    hover_text: "Joined the XXXX Team to ..."
     link: members/dayne
     image: assets/img/team/Dayne_Blair.jpg
 
   - name: "Muskan Lalit"
     role: "Mitacs Globalink Intern"
     time: "Summer 2021"
+    hover_text: "Worked on ..."
     link: members/muskan
     image: assets/img/team/Muskan_Lalit.jpg
 
   - name: "Meet Oza"
     role: "Mitacs Globalink Intern"
     time: "Summer 2021"
+    hover_text: "Researched on ..."
     link: members/meet
     image: assets/img/team/Meet_Oza.jpg
 
   - name: "Rudra Patel"
     role: "Mitacs Globalink Intern"
     time: "Summer 2021"
+    hover_text: "Contributed ..."
     link: members/rudra
     image: /assets/img/team/Rudra_Patel.png
 
   - name: "Zakiyyah Noorally"
     role: "UGRA intern"
     time: "Summer 2021"
+    hover_text: "Helped in Mobile Development and C++ OpenTextbook projects."
     link: members/zakiyyah
     image: assets/img/team/Zakiyyah_Noorally.jpg

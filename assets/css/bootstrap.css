@@ -10223,4 +10223,14 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
+.hoverbox:hover:after {
+  position: absolute;
+  content: attr(title);
+  display: inline-block;
+  left: 0px;
+  top: 0px;
+  padding: 5px;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */

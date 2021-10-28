@@ -10,7 +10,7 @@
     </div>
     <div class="row">
         {% for person in group.members %}
-        <div class="col-sm-4">
+        <div class="col-sm-4 hoverbox" title="{{ person.hover_text }}">
             <div class="team-member">
                 <a {% if person.link %} href="{{ person.link }}" {% endif %}>
                     <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="{{ person.name | append: ' image' }}">
