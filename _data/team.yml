@@ -32,6 +32,7 @@ groups:
     members:
       - name: "Ghazal (Baran) Erfani"
         role: "Research Assistant"
+        hover_text: "Undergraduate research assistant who researched on ..."
         link: members/baran
         image: assets/img/team/Baran_Erfani.jpg
         social:
@@ -41,8 +42,9 @@ groups:
       - user: yazdan
         name: "Yazdan Ranjbar"
         role: "Research Assistant"
-        image: assets/img/team/Yazdan_Ranjbar.jpg
+        hover_text: "Undergraduate research assistant who researched on ..."
         link: members/yazdan
+        image: assets/img/team/Yazdan_Ranjbar.jpg
         social:
           - url: https://www.linkedin.com/in/yazdanra
             icon: fab fa-linkedin-in
@@ -53,6 +55,7 @@ groups:
 
       - name: "Zakiyyah Noorally"
         role: "Research Assistant"
+        hover_text: "Undergraduate research assistant who researched on ..."
         link: members/zakiyyah
         image: assets/img/team/Zakiyyah_Noorally.jpg
         social:
@@ -73,14 +76,16 @@ groups:
     members:
       - name: "Sandeep Tandra"
         role: "M.Sc. Student in Computer Science"
-        image: assets/img/team/Sandeep_Tandra.jpg
+        hover_text: "Graduate student who is working on ..."
         link: members/sandeep
+        image: assets/img/team/Sandeep_Tandra.jpg
         social:
           - url: https://www.linkedin.com/in/sandeeptandra
             icon: fab fa-linkedin-in
 
       - name: "Vignesh Shankar"
         role: "M.Sc. Student in Computer Science"
+        hover_text: "Graduate student who is working on ..."
         image: assets/img/team/Vignesh_Shankar.jpg
         social:
           - url: https://www.linkedin.com/in/vigneshshankar30
@@ -88,6 +93,7 @@ groups:
 
       - name: "Henrik Steenbock"
         role: "M.Sc. Student in Computer Science"
+        hover_text: "Graduate student who is working on ..."
         image: assets/img/team/Man_Default.jpg
         social:
           - url: https://www.linkedin.com/in/henrik-steenbock-a3464a174
@@ -95,6 +101,7 @@ groups:
 
       - name: "Saroj(Tsuyog) Basnet"
         role: "M.Sc. Student in Computer Science"
+        hover_text: "Graduate student who is working on ..."
         image: assets/img/team/Tsuyog_Basnet.jpg
         social:
           - url: https://www.linkedin.com/in/tsuyog
@@ -110,6 +117,7 @@ groups:
 
       - name: "Jay Joshi"
         role: "M.Sc. Student in Computer Science"
+        hover_text: "Graduate student who is working on ..."
         image: assets/img/team/Jay_Joshi.jpg
         social:
           - url: https://www.linkedin.com/in/jay-joshi-6b19b31b2

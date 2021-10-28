@@ -3,9 +3,9 @@
   margin-bottom: 50px;
   text-align: center;
   img {
-    width: 225px;
-    height: 225px;
-    border: 7px solid fade-out($black, 0.9);
+    width: 220px;
+    height: 220px;
+    border: 5px solid fade-out($black, 0.9);
   }
   h4, h5 {
     margin-top: 25px;
@@ -14,5 +14,24 @@
   }
   p {
     margin-top: 0;
+  }
+}
+
+.alumni{
+
+  width: 500px;
+  //border: 1px solid black;
+  overflow: hidden;
+
+  #pic{
+    width: 120px;
+    float:left;
+    //border: 1px solid red;
+  }
+
+  #text{
+    //border: 1px solid green;
+    text-align: left;
+    float: left;
   }
 }
