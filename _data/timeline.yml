@@ -1,8 +1,22 @@
 title: "Data Science Lab over time"
 text: " "
-#text: "Learn about the Major events of the Data Science Lab"
+#text: "Learn about the major events of the Data Science Lab"
 section: timeline
 events:
+  - title: "Bloom"
+    year: "2022"
+    desc: "Director and key members are now helpiong top tech industries (Google, Microsoft, EA, etc.)"
+    image: assets/img/timeline/animated.GIF
+    alt:
+    align: left
+  
+  - title: "Peak"
+    year: "2021"
+    desc: "With 15 research students and more than half a million in funding"
+    image: assets/img/timeline/Lab_Start_2.jpg
+    alt:
+    align: left
+    
   - title: "Growth"
     year: "2020"
     desc: "Collaboration with DEPtH Lab <br> MITACS Accelerate Internships <br> Kaggle Grant"
