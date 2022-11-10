@@ -2,6 +2,64 @@ section: alumni
 title: "Alumni Students"
 text: " "
 members:
+  - name: "Ghazal (Baran) Erfani"
+    role: "Research Assistant"
+    hover_text: "Undergraduate research assistant who researched on ..."
+    link: members/baran
+    image: assets/img/team/Baran_Erfani.jpg
+    social:
+      - url: https://www.linkedin.com/in/baranerf
+        icon: fab fa-linkedin-in
+
+  - user: yazdan
+    name: "Yazdan Ranjbar"
+    role: "Research Assistant"
+    hover_text: "Undergraduate research assistant who researched on ..."
+    link: members/yazdan
+    image: assets/img/team/Yazdan_Ranjbar.jpg
+    social:
+      - url: https://www.linkedin.com/in/yazdanra
+        icon: fab fa-linkedin-in
+      - url: https://github.com/yazdanra
+        icon: fab fa-github
+      - url: https://gitlab.com/yazdan_ra
+        icon: fab fa-gitlab
+  
+  - name: "Sandeep Tandra"
+    role: "M.Sc. Student in Computer Science"
+    hover_text: "Graduate student who is working on ..."
+    link: members/sandeep
+    image: assets/img/team/Sandeep_Tandra.jpg
+    social:
+      - url: https://www.linkedin.com/in/sandeeptandra
+        icon: fab fa-linkedin-in
+
+  - name: "Vignesh Shankar"
+    role: "M.Sc. Student in Computer Science"
+    hover_text: "Graduate student who is working on ..."
+    image: assets/img/team/Vignesh_Shankar.jpg
+    social:
+      - url: https://www.linkedin.com/in/vigneshshankar30
+        icon: fab fa-linkedin-in
+
+  - name: "Henrik Steenbock"
+    role: "M.Sc. Student in Computer Science"
+    hover_text: "Graduate student who is working on ..."
+    image: assets/img/team/Man_Default.jpg
+    social:
+      - url: https://www.linkedin.com/in/henrik-steenbock-a3464a174
+        icon: fab fa-linkedin-in
+
+  - name: "Saroj(Tsuyog) Basnet"
+    role: "M.Sc. Student in Computer Science"
+    hover_text: "Graduate student who is working on ..."
+    image: assets/img/team/Tsuyog_Basnet.jpg
+    social:
+      - url: https://www.linkedin.com/in/tsuyog
+        icon: fab fa-linkedin-in
+        
+  
+  
   - name: "Mahtab Farokhfari"
     role: "Research Assistant & Coordinator"
     time: ""
@@ -51,9 +109,19 @@ members:
     link: members/rudra
     image: /assets/img/team/Rudra_Patel.png
 
+#  - name: "Zakiyyah Noorally"
+#    role: "Research Assistant"
+#    hover_text: "Undergraduate research assistant who researched on ..."
+#    link: members/zakiyyah
+#    image: assets/img/team/Zakiyyah_Noorally.jpg
+      
+
   - name: "Zakiyyah Noorally"
     role: "UGRA intern"
     time: "Summer 2021"
     hover_text: "Helped in Mobile Development and C++ OpenTextbook projects."
     link: members/zakiyyah
     image: assets/img/team/Zakiyyah_Noorally.jpg
+    social:
+      - url: https://linkedin.com/in/zakiyyah-n-b50b7a139
+        icon: fab fa-linkedin-in
