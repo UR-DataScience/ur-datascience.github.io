@@ -1,4 +1,4 @@
-# [University of Regina](http://uregina.ca) | [Data Science Laboratory](http://urdatascience.ca)
+# [Data Science Laboratory](http://urdatascience.ca)
 Directed by [Dr. Alireza Manashty](http://urdatascience.ca/members/alireza)
 
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://urdatascience.ca)
