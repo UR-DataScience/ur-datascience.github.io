@@ -4,19 +4,15 @@ title: Alireza Manashty
 permalink: /members/alireza
 
 name: Alireza Manashty
-role: Director, Data Science Laboratory <br> Assistant Professor, Computer Science Department <br> University of Regina
+role: Director, Data Science Laboratory
 
 image: "/assets/img/team/Alireza_Manashty.jpg"
 alt: alireza_manashty
 
-email: alireza.manashty@uregina.ca
+gmail: a.r.manashty
 #email_text: 24 Hours
 
-number: "+1 (506) 898-2227"
-#number_text: Text only
 
-address: CW 308.25, University of Regina, Regina, SK, Canada
-#address_text: Work
 
 #born: 
 
@@ -25,8 +21,9 @@ social:
       icon: ion-social-linkedin
       
 about: >-
- Assistant Professor in Computer Science (Data Science & Machine Learning) at University of Regina (Tenure-track)
- Director of Data Science Lab at University of Regina
+ Current: Senior Consultant, Industry
+ Former Assistant Professor in Computer Science (Data Science & Machine Learning) at University of Regina (Tenure-track) (2019-2022)
+ Former Director of Data Science Lab at University of Regina (2019-2022)
  9+ years of practical problem solving using machine learning. Helping government and tech companies (e.g., Dell EMC) by providing predictive data science consultant. Awarded Microsoft MVP in Azure.
  Full-stack data scientist: Provided complete solutions for problems, from business discovery, solution design, data acquisition (Sql/NoSql), modeling (R, Python, Java/C#, web), visualization, and deployment (local/cloud services)
  Instructor & professional trainer: 7 years of teaching main CS undergraduate courses. Data science trainer.
@@ -49,7 +46,7 @@ purple:
     events:
         - title: Assistant Professor of Computer Science
           subtitle: University of Regina
-          status: JULy 2019 - PRESENT
+          status: July 2019 - June 2022
           text: >-
             Assistant Professor (Data Science & Machine Learning) at the Department of Computer Science, University of Regina
             Director of Data Science Laboratory.
