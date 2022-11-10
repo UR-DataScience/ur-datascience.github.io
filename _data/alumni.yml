@@ -11,20 +11,6 @@ members:
       - url: https://www.linkedin.com/in/baranerf
         icon: fab fa-linkedin-in
 
-  - user: yazdan
-    name: "Yazdan Ranjbar"
-    role: "Research Assistant"
-    hover_text: "Undergraduate research assistant who researched on ..."
-    link: members/yazdan
-    image: assets/img/team/Yazdan_Ranjbar.jpg
-    social:
-      - url: https://www.linkedin.com/in/yazdanra
-        icon: fab fa-linkedin-in
-      - url: https://github.com/yazdanra
-        icon: fab fa-github
-      - url: https://gitlab.com/yazdan_ra
-        icon: fab fa-gitlab
-  
   - name: "Sandeep Tandra"
     role: "M.Sc. Student in Computer Science"
     hover_text: "Graduate student who is working on ..."
@@ -33,6 +19,16 @@ members:
     social:
       - url: https://www.linkedin.com/in/sandeeptandra
         icon: fab fa-linkedin-in
+        
+  - user: yazdan
+    name: "Yazdan Ranjbar"
+    role: "Research Assistant"
+    hover_text: "Undergraduate research assistant who researched on ..."
+    link: members/yazdan
+    image: assets/img/team/Yazdan_Ranjbar.jpg
+    social:
+      - url: https://www.linkedin.com/in/yazdanra
+        icon: fab fa-linkedin-in          
 
   - name: "Vignesh Shankar"
     role: "M.Sc. Student in Computer Science"
