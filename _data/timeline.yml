@@ -15,7 +15,7 @@ events:
     desc: "With 15 research students and more than half a million in funding"
     image: assets/img/timeline/Lab_Start_2.jpg
     alt:
-    align: left
+    align: right
     
   - title: "Growth"
     year: "2020"
