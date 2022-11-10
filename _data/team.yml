@@ -6,13 +6,13 @@ groups:
     button: Join us
     buttonlink: "mailto:alireza.manashty@uregina.ca"
     members:
-#      - name: "Dr. Alireza Manashty"
-#        role: "Director, Data Science Laboratory <br>"
-#        link: members/alireza
-#        image: assets/img/team/Alireza_Manashty.jpg
-#        social:
-#          - url: https://linkedin.com/in/manashty
-#            icon: fab fa-linkedin-in
+      - name: "Dr. Alireza Manashty"
+        role: "Director, Data Science Laboratory <br>"
+        link: members/alireza
+        image: assets/img/team/Alireza_Manashty.jpg
+        social:
+          - url: https://linkedin.com/in/manashty
+            icon: fab fa-linkedin-in
 #     - name: "Dr. Stephen Lee"
 #        role: "Assistant Professor<br>University of Saskatchewan"
 #        image: assets/img/team/Stephen_Lee.jpg
