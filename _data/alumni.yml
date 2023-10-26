@@ -63,13 +63,7 @@ members:
     link: members/mahtab
     image: assets/img/team/Mahtab_Farokhfari.jpg
 
-  - name: "Vineel Gannu"
-    role: "M.Sc. Computer Science Student"
-    time: ""
-    hover_text: "Researched on ..."
-    link: members/vineel
-    image: assets/img/team/Vineel_Gannu.jpg
-
+  
   - name: "Brandon Sasyniuk"
     role: "Research Intern"
     time: "Summer 2021"
